@@ -136,10 +136,11 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  color: #ffffff;
+  color: #232323;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 1.6rem;
 }
 h1,
 .h1 {
@@ -485,4 +486,10 @@ body {
 }
 .App-intro {
   font-size: large;
+}
+.navbar {
+  width: 100%;
+  background-color: #232323;
+  color: #3d92e0;
+  padding: 10px;
 }
