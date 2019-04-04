@@ -12,9 +12,12 @@ class Navbar extends Component {
         return (
         <Fragment>
             <section className='navbar'>
-                <GiBeerStein />
-                <GiBeerStein />
-                <GiBeerStein />
+                <div className='nav-logo'>My House</div>
+                <div className='nav-buttons'>
+                    <GiBeerStein />
+                    <GiBeerStein />
+                    <GiBeerStein />
+                </div>
             </section>
         </Fragment>
         );
