@@ -5,10 +5,14 @@ exports.up = function(knex) {
             .increments();
 
         seed_data
-            .string('public_remarks', 255)
+            .string('public_remarks', 255);
 
         seed_data
             .integer('house_id')
+            .references("id")
+            .inTable("houses")
+            .onDelete("CASCADE")
+            .onUpdate("cascade")
             .notNullable();
 
     });

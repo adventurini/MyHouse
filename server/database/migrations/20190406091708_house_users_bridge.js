@@ -3,9 +3,17 @@ exports.up = function(knex) {
 
         house_users_bridge
             .integer('house_id')
+            .references('id')
+            .inTable('houses')
+            .onDelete('CASCADE')
+            .onUpdate("CASCADE");
 
         house_users_bridge
             .integer('users_id')
+            .references('id')
+            .inTable('users')
+            .onDelete('CASCADE')
+            .onUpdate("CASCADE");
 
 
     });
