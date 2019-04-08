@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import logger from 'redux-logger';
 
-import './styles/css/index.css';
+import './styles/scss/index.scss';
 
 import rootReducer from './stateTree/reducers';
 import App from './components/App';

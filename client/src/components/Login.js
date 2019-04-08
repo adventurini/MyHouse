@@ -1,31 +1,53 @@
-import React, { Component, Fragment } from 'react';
+import React, { Fragment, Component } from 'react';
+import Amplify from 'aws-amplify';
+import awsmobile from '../aws-exports';
+import { withAuthenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-native';
 
-import { connect } from 'react-redux';
-// import { Link } from 'react-router-dom';
+Amplify.configure(awsmobile);
 
-import {  } from '../stateTree/actions';
+// import { connect } from 'react-redux';
+// import { BrowserRouter, Route } from 'react-router-dom';
+
+// import Navbar from './Navbar';
+// import Login from './Login';
 
 
 
 class Login extends Component {
-    
-    render() {
-        return (
-            <Fragment>
-                <h3>This is the login component</h3>
-            </Fragment>
-        )
-    }
+
+  render() {
+    return (
+      <Fragment>
+        {/* <h3>Login</h3> */}
+        {/* <BrowserRouter>
+          <section className='Login'>
+            
+            <Navbar />
+  
+            <Route
+              exact
+              path='/'
+              render={() => (
+                <Login />
+              )}
+            />
+  
+          </section>
+        </BrowserRouter> */}
+      </Fragment>
+    );
+  }
 }
 
 
 
-const mapStateToProps = state => ({
-    ...state
-})
-  
-export default connect(
-    mapStateToProps, 
-    {  }
-)(Login);
+// const mapStateToProps = state => ({
+//   ...state  // This brings in all of state store. you can be explicit as well.
+// })
 
+// export default connect(
+//     mapStateToProps, 
+//     {  }    // Bring in action here. Remember to import it
+// )(Login);
+
+export default withAuthenticator(Login, true)

@@ -1,11 +1,16 @@
 import React, { Fragment, Component } from 'react';
+// import Amplify from 'aws-amplify';
+// import awsmobile from '../aws-exports';
+// import { withAuthenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-native';
+
+// Amplify.configure(awsmobile);
 
 import { connect } from 'react-redux';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-
 import Navbar from './Navbar';
 import Login from './Login';
+import Funnel from './Funnel';
 
 
 
@@ -22,6 +27,13 @@ class App extends Component {
             <Route
               exact
               path='/'
+              render={() => (
+                <Funnel />
+              )}
+            />
+
+            <Route
+              path='/login'
               render={() => (
                 <Login />
               )}
@@ -44,3 +56,5 @@ export default connect(
     mapStateToProps, 
     {  }    // Bring in action here. Remember to import it
 )(App);
+
+// export default withAuthenticator(App, true)
