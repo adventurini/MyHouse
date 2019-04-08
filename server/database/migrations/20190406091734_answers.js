@@ -5,7 +5,7 @@ exports.up = function(knex) {
             .increments();
 
         answers
-            .string('answers', 255)
+            .string('answer', 255)
             .notNullable()
 
         answers
