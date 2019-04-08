@@ -25,7 +25,7 @@ id,county,state,seat,population,sqmi,geoid,city,source_availability,parcel_avail
 24,Dallas,AL,Selma,41131,979,01047,,yes,yes,0,0,,al_dallas,31219,2015-07-31,0,0,2019-03-29 09:48:21 -0400,/us/al/dallas,
 25,DeKalb,AL,Fort Payne,71130,777,01049,,yes,yes,0,0,,al_dekalb16,51511,2016-04-08,0,1,2018-01-24 19:28:33 -0500,/us/al/dekalb,
 26,Elmore,AL,Wetumpka,81468,618,01051,,yes,yes,0,0,,al_elmore16,48979,2016-04-20,0,0,2018-01-24 19:28:38 -0500,/us/al/elmore,
-27,Escambia,AL,Brewton,37789,945,01053,,"",no,0,0,,,,,,,,/us/al/escambia,
+27,Escambia,AL,Brewton,37789,945,01053,,,no,0,0,,,,,,,,/us/al/escambia,
 28,Etowah,AL,Gadsden,103057,535,01055,,yes,yes,0,0,,al_etowah,74581,2016-04-04,1,1,2018-01-24 19:28:44 -0500,/us/al/etowah,
 29,Fayette,AL,Fayette,16759,628,01057,,yes,yes,,,,al_fayette,21694,2016-04-04,0,0,2018-01-24 19:28:46 -0500,/us/al/fayette,
 30,Franklin,AL,Russellville,31696,634,01059,,yes,yes,0,0,,al_franklin,23125,2015-08-03,0,1,2019-03-29 09:48:27 -0400,/us/al/franklin,
@@ -95,26 +95,22 @@ id,county,state,seat,population,sqmi,geoid,city,source_availability,parcel_avail
 94,Valdez-Cordova Census Area,AK,Valdez,9362,34319,02261,,,no,,,,,,,,,,/us/ak/valdez-cordova,
 95,Wade Hampton Census Area,AK,Hooper Bay,7459,17194,02270,,,no,,,,,,,,,,/us/ak/wade-hampton,
 96,Yukon-Koyukuk Census Area,AK,Galena,5533,145900,02290,,,no,,,,,,,,,,/us/ak/yukon-koyukuk,
-97,Arkansas,AR,"De Witt and
-Stuttgart",18433,988,05001,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/arkansas,2
+97,Arkansas,AR,De Witt and Stuttgart,18433,988,05001,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/arkansas,2
 98,Ashley,AR,Hamburg,20838,921,05003,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/ashley,2
 99,Baxter,AR,Mountain Home,41053,554,05005,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/baxter,2
 100,Benton,AR,Bentonville,249672,843,05007,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/benton,2
 101,Boone,AR,Harrison,37222,591,05009,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/boone,2
 102,Bradley,AR,Warren,11094,651,05011,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/bradley,2
 103,Calhoun,AR,Hampton,5229,628,05013,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/calhoun,2
-104,Carroll,AR,"Berryville and
-Eureka Springs",27704,634,05015,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/carroll,2
+104,Carroll,AR,Berryville and Eureka Springs,27704,634,05015,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/carroll,2
 105,Chicot,AR,Lake Village,11027,644,05017,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/chicot,2
 106,Clark,AR,Arkadelphia,22633,866,05019,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/clark,2
-107,Clay,AR,"Piggott and
-Corning",15109,639,05021,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/clay,2
+107,Clay,AR,Piggott and Corning,15109,639,05021,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/clay,2
 108,Cleburne,AR,Heber Springs,25467,553,05023,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/cleburne,2
 109,Cleveland,AR,Rison,8311,598,05025,,yes,yes,,,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/cleveland,2
 110,Columbia,AR,Magnolia,24114,766,05027,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/columbia,2
 111,Conway,AR,Morrilton,21019,556,05029,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/conway,2
-112,Craighead,AR,"Jonesboro and
-Lake City",104354,711,05031,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/craighead,2
+112,Craighead,AR,Jonesboro and Lake City,104354,711,05031,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/craighead,2
 113,Crawford,AR,Van Buren,61703,596,05033,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/crawford,2
 114,Crittenden,AR,Marion,48963,610,05035,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/crittenden,2
 115,Cross,AR,Wynne,17284,616,05037,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/cross,2
@@ -122,8 +118,7 @@ Lake City",104354,711,05031,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25
 117,Desha,AR,Arkansas City,11965,765,05041,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/desha,2
 118,Drew,AR,Monticello,18778,828,05043,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/drew,2
 119,Faulkner,AR,Conway,121552,647,05045,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/faulkner,2
-120,Franklin,AR,"Ozark and
-Charleston",17702,610,05047,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/franklin,2
+120,Franklin,AR,Ozark and Charleston,17702,610,05047,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/franklin,2
 121,Fulton,AR,Salem,12204,618,05049,,no,no,,,,,,,,,,/us/ar/fulton,
 122,Garland,AR,Hot Springs,97177,678,05051,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/garland,2
 123,Grant,AR,Sheridan,18102,632,05053,,yes,yes,,,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/grant,2
@@ -141,14 +136,12 @@ Charleston",17702,610,05047,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25
 135,Lee,AR,Marianna,9650,602,05077,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/lee,2
 136,Lincoln,AR,Star City,13820,561,05079,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/lincoln,2
 137,Little River,AR,Ashdown,12472,532,05081,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/little-river,2
-138,Logan,AR,"Booneville and
-Paris",21714,710,05083,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/logan,2
+138,Logan,AR,Booneville and Paris,21714,710,05083,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/logan,2
 139,Lonoke,AR,Lonoke,71645,766,05085,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/lonoke,2
 140,Madison,AR,Huntsville,15767,837,05087,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/madison,2
 141,Marion,AR,Yellville,16185,598,05089,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/marion,2
 142,Miller,AR,Texarkana,43908,624,05091,,yes,yes,,,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/miller,2
-143,Mississippi,AR,"Blytheville and
-Osceola",43738,920,05093,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/mississippi,2
+143,Mississippi,AR,Blytheville and Osceola,43738,920,05093,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/mississippi,2
 144,Monroe,AR,Clarendon,7399,607,05095,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/monroe,2
 145,Montgomery,AR,Mount Ida,8970,781,05097,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/montgomery,2
 146,Nevada,AR,Prescott,8558,620,05099,,no,no,,,,,,,,,,/us/ar/nevada,
@@ -160,16 +153,14 @@ Osceola",43738,920,05093,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11
 152,Poinsett,AR,Harrisburg,24040,758,05111,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/poinsett,2
 153,Polk,AR,Mena,20216,860,05113,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/polk,2
 154,Pope,AR,Russellville,63390,812,05115,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/pope,2
-155,Prairie,AR,"Des Arc and
-DeValls Bluff",8291,646,05117,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/prairie,2
+155,Prairie,AR,Des Arc and	 DeValls Bluff,8291,646,05117,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/prairie,2
 156,Pulaski,AR,Little Rock,392664,771,05119,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/pulaski,2
 157,Randolph,AR,Pocahontas,17469,652,05121,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/randolph,2
 158,St. Francis,AR,Forrest City,26589,634,05123,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/st-francis,2
 159,Saline,AR,Benton,117460,725,05125,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/saline,2
 160,Scott,AR,Waldron,10513,894,05127,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/scott,2
 161,Searcy,AR,Marshall,7869,667,05129,,no,no,,,,,,,,,,/us/ar/searcy,
-162,Sebastian,AR,"Greenwood and
-Fort Smith",127780,536,05131,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/sebastian,2
+162,Sebastian,AR,Greenwood and Fort Smith,127780,536,05131,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/sebastian,2
 163,Sevier,AR,De Queen,17290,564,05133,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/sevier,2
 164,Sharp,AR,Ash Flat,16912,604,05135,,yes,yes,,,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/sharp,2
 165,Stone,AR,Mountain View,12456,607,05137,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-25 11:09:42 -0400,/us/ar/stone,2
@@ -762,7 +753,7 @@ Fort Smith",127780,536,05131,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-2
 800,Macoupin,IL,Carlinville,46045,864,17117,,yes,yes,,,,il_macoupin,38140,2016-04-29,1,1,2018-01-24 21:51:07 -0500,/us/il/macoupin,
 801,Madison,IL,Edwardsville,266209,725,17119,,yes,no,,,80,,,,,,,/us/il/madison,
 802,Marion,IL,Salem,38339,572,17121,,yes,yes,,,5800,il_marion,28459,2016-06-12,0,0,2018-01-24 21:51:09 -0500,/us/il/marion,
-803,Marshall,IL,Lacon,11982,386,17123,,"",no,,,,,,,,,,/us/il/marshall,
+803,Marshall,IL,Lacon,11982,386,17123,,,no,,,,,,,,,,/us/il/marshall,
 804,Mason,IL,Havana,13701,539,17125,,yes,no,,,,,,,,,,/us/il/mason,
 805,Massac,IL,Metropolis,14766,239,17127,,yes,yes,,,,il_massac,11135,2016-05-01,1,1,2018-01-24 21:51:10 -0500,/us/il/massac,
 806,Menard,IL,Petersburg,12444,314,17129,,yes,yes,,,,il_menard,11952,2016-06-12,1,1,2018-01-24 21:51:32 -0500,/us/il/menard,
@@ -776,17 +767,17 @@ Fort Smith",127780,536,05131,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-2
 814,Perry,IL,Pinckneyville,21543,441,17145,,no,no,,,,,,,,,,/us/il/perry,
 815,Piatt,IL,Monticello,16387,440,17147,,yes,no,,,,,,,,,,/us/il/piatt,
 816,Pike,IL,Pittsfield,15989,830,17149,,no,no,,,,,,,,,,/us/il/pike,
-817,Pope,IL,Golconda,4226,371,17151,,"",no,,,,,,,,,,/us/il/pope,
+817,Pope,IL,Golconda,4226,371,17151,,,no,,,,,,,,,,/us/il/pope,
 818,Pulaski,IL,Mound City,5678,201,17153,,yes,yes,,,,il_pulaski,5251,2016-06-12,1,1,2018-01-24 21:51:45 -0500,/us/il/pulaski,
-819,Putnam,IL,Hennepin,5644,160,17155,,"",no,,,,,,,,,,/us/il/putnam,
+819,Putnam,IL,Hennepin,5644,160,17155,,,no,,,,,,,,,,/us/il/putnam,
 820,Randolph,IL,Chester,32852,578,17157,,yes,yes,,,,il_randolph,26131,2016-06-12,1,1,2019-03-25 11:38:30 -0400,/us/il/randolph,
 821,Richland,IL,Olney,16029,360,17159,,yes,no,,,,,,,,,,/us/il/richland,
 822,Rock Island,IL,Rock Island,146133,427,17161,,yes,yes,,,,il_rock_island,66766,2016-05-01,1,0,2018-01-24 21:51:52 -0500,/us/il/rock-island,
 823,St. Clair,IL,Belleville,264052,664,17163,,yes,yes,,,,il_st_clair,151273,2016-05-01,1,1,2019-03-25 11:38:38 -0400,/us/il/st-clair,
-824,Saline,IL,Harrisburg,24548,383,17165,,"",no,,,,,,,,,,/us/il/saline,
+824,Saline,IL,Harrisburg,24548,383,17165,,,no,,,,,,,,,,/us/il/saline,
 825,Sangamon,IL,Springfield,198712,868,17167,,yes,yes,,,,il_sangamon,105060,2016-04-29,1,1,2018-01-24 21:52:01 -0500,/us/il/sangamon,
 826,Schuyler,IL,Rushville,7032,437,17169,,yes,yes,,,,il_schuyler,8942,2016-05-01,1,1,2018-01-24 21:52:02 -0500,/us/il/schuyler,
-827,Scott,IL,Winchester,5092,251,17171,,"",no,,,,,,,,,,/us/il/scott,
+827,Scott,IL,Winchester,5092,251,17171,,,no,,,,,,,,,,/us/il/scott,
 828,Shelby,IL,Shelbyville,21775,759,17173,,yes,yes,,,,il_shelby,20299,2016-06-12,1,1,2018-01-24 21:52:04 -0500,/us/il/shelby,
 829,Stark,IL,Toulon,5788,288,17175,,,no,,,,,,,,,,/us/il/stark,
 830,Stephenson,IL,Freeport,45749,564,17177,,yes,yes,,,,il_stephenson,27667,2016-04-05,1,1,2019-03-25 11:38:41 -0400,/us/il/stephenson,
@@ -796,7 +787,7 @@ Fort Smith",127780,536,05131,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-2
 834,Wabash,IL,Mount Carmel,11542,224,17185,,no,no,,,,,,,,,,/us/il/wabash,
 835,Warren,IL,Monmouth,17527,543,17187,,,no,,,,,,,,,,/us/il/warren,
 836,Washington,IL,Nashville,14270,563,17189,,yes,no,,,,,,,,,,/us/il/washington,
-837,Wayne,IL,Fairfield,16423,714,17191,,"",no,,,,,,,,,,/us/il/wayne,
+837,Wayne,IL,Fairfield,16423,714,17191,,,no,,,,,,,,,,/us/il/wayne,
 838,White,IL,Carmi,14327,495,17193,,yes,yes,,,,il_white,20679,2016-06-12,0,0,2018-12-04 14:37:06 -0500,/us/il/white,
 839,Whiteside,IL,Morrison,57079,685,17195,,yes,yes,,,,il_whiteside,37084,2016-05-01,1,1,2019-03-25 11:38:42 -0400,/us/il/whiteside,
 840,Will,IL,Joliet,687263,849,17197,,yes,yes,0,0,,il_will18,274510,2018-12-08,1,0,2018-12-07 08:39:53 -0500,/us/il/will,
@@ -951,8 +942,6 @@ Fort Smith",127780,536,05131,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-2
 989,Linn,KS,Mound City,9536,599,20107,,yes,yes,,,,ks_linn,19048,2016-04-04,1,0,2018-01-24 22:01:45 -0500,/us/ks/linn,
 990,Logan,KS,Oakley,2825,1073,20109,,yes,yes,,,,ks_logan,4293,2016-04-06,0,0,2018-01-24 22:01:45 -0500,/us/ks/logan,
 991,Lyon,KS,Emporia,33339,851,20111,,yes,yes,,,,ks_lyon,17083,2016-04-04,1,0,2018-01-24 22:01:47 -0500,/us/ks/lyon,
-992,McPherson,KS,McPherson,28941,900,20113,,yes,yes,,,,ks_mcpherson,17530,2016-04-04,0,0,2018-01-24 22:01:50 -0500,/us/ks/mcpherson,
-993,Marion,KS,Marion,12103,943,20115,,yes,yes,,,,ks_marion,12225,2016-04-04,1,1,2018-01-24 22:01:49 -0500,/us/ks/marion,
 994,Marshall,KS,Marysville,9936,903,20117,,yes,yes,,,,ks_marshall,9806,2016-04-04,0,0,2018-12-04 14:37:37 -0500,/us/ks/marshall,
 995,Meade,KS,Meade,4330,978,20119,,yes,yes,,,,ks_meade,5268,2016-04-04,0,0,2018-12-04 14:37:40 -0500,/us/ks/meade,
 996,Miami,KS,Paola,32553,577,20121,,yes,no,300,300,300,,,,,,,/us/ks/miami,
@@ -984,7 +973,7 @@ Fort Smith",127780,536,05131,,yes,yes,0,0,,ar19,1890919,2019-02-11,1,1,2019-03-2
 1022,Sedgwick,KS,Wichita,511574,1001,20173,,yes,yes,,,,ks_sedgwick19,222873,2019-02-11,1,1,2019-02-06 05:40:38 -0500,/us/ks/sedgwick,2
 1023,Seward,KS,Liberal,23152,640,20175,,yes,yes,,,,ks_seward,10192,2016-04-04,0,0,2018-01-24 22:02:41 -0500,/us/ks/seward,
 1024,Shawnee,KS,Topeka,178725,550,20177,,yes,yes,,,,ks_shawnee,75603,2016-04-05,1,1,2018-01-24 22:02:47 -0500,/us/ks/shawnee,
-1025,Sheridan,KS,Hoxie,2512,896,20179,,"",no,,,,,,,,,,/us/ks/sheridan,
+1025,Sheridan,KS,Hoxie,2512,896,20179,,,no,,,,,,,,,,/us/ks/sheridan,
 1026,Sherman,KS,Goodland,5983,1056,20181,,,no,,,,,,,,,,/us/ks/sherman,
 1027,Smith,KS,Smith Center,3704,896,20183,,yes,yes,,,,ks_smith,6625,2016-04-05,0,0,2018-01-24 22:02:48 -0500,/us/ks/smith,
 1028,Stafford,KS,Saint John,4236,792,20185,,yes,yes,,,,ks_stafford,6227,2016-04-05,0,0,2018-01-24 22:02:48 -0500,/us/ks/stafford,
@@ -1176,7 +1165,7 @@ and Newport",92066,192,21037,,yes,yes,,,,ky_campbell,36126,2016-04-04,1,1,2018-0
 1213,St. Mary,LA,,52810,,22101,,yes,yes,,,,la_st_mary,43787,2016-04-05,1,1,2019-03-25 12:00:25 -0400,/us/la/st-mary,
 1214,St. Tammany,LA,,250088,,22103,,yes,yes,,,,la_st_tammany,18615,2016-04-05,1,1,2019-03-25 12:00:26 -0400,/us/la/st-tammany,
 1215,Tangipahoa,LA,Amite,128755,823,22105,,yes,yes,,,,la_tangipahoa,68613,2016-04-04,1,1,2018-01-24 22:07:13 -0500,/us/la/tangipahoa,
-1216,Tensas,LA,Saint Joseph,4740,641,22107,,"",no,,,,,,,,,,/us/la/tensas,
+1216,Tensas,LA,Saint Joseph,4740,641,22107,,,no,,,,,,,,,,/us/la/tensas,
 1217,Terrebonne,LA,Houma,113972,2080,22109,,yes,yes,,,,la_terrebonne,53174,2016-04-04,1,1,2019-03-25 12:00:32 -0400,/us/la/terrebonne,
 1218,Union,LA,Farmerville,22477,905,22111,,yes,no,,,,,,,,,,/us/la/union,
 1219,Vermilion,LA,Abbeville,59875,1538,22113,,yes,yes,,,,la_vermilion,18766,2016-04-04,0,0,2018-12-04 14:38:29 -0500,/us/la/vermilion,
@@ -1192,9 +1181,9 @@ and Newport",92066,192,21037,,yes,yes,,,,ky_campbell,36126,2016-04-04,1,1,2018-0
 1229,Essex,MA,Salem and Lawrence,776043,499,25009,,yes,yes,0,,,ma18,2334020,2018-12-21,1,1,2019-03-25 12:04:12 -0400,/us/ma/essex,2
 1230,Franklin,MA,Greenfield,70601,703,25011,,yes,yes,0,,,ma18,2334020,2018-12-21,1,1,2019-03-25 12:04:12 -0400,/us/ma/franklin,2
 1231,Hampden,MA,Springfield,470690,619,25013,,yes,yes,0,,,ma18,2334020,2018-12-21,1,1,2019-03-25 12:04:12 -0400,/us/ma/hampden,2
-1232,Hampshire,MA,"",161292,530,25015,,yes,yes,0,,,ma18,2334020,2018-12-21,1,1,2019-03-25 12:04:12 -0400,/us/ma/hampshire,2
+1232,Hampshire,MA,,161292,530,25015,,yes,yes,0,,,ma18,2334020,2018-12-21,1,1,2019-03-25 12:04:12 -0400,/us/ma/hampshire,2
 1233,Middlesex,MA,Lowell,1585139,825,25017,,yes,yes,0,,,ma18,2334020,2018-12-21,1,1,2019-03-25 12:04:12 -0400,/us/ma/middlesex,2
-1234,Nantucket,MA,"",10925,49,25019,,yes,yes,0,,,ma18,2334020,2018-12-21,1,1,2019-03-25 12:04:12 -0400,/us/ma/nantucket,2
+1234,Nantucket,MA,,10925,49,25019,,yes,yes,0,,,ma18,2334020,2018-12-21,1,1,2019-03-25 12:04:12 -0400,/us/ma/nantucket,2
 1235,Norfolk,MA,Dedham,696023,401,25021,,yes,yes,0,,,ma18,2334020,2018-12-21,1,1,2019-03-25 12:04:12 -0400,/us/ma/norfolk,2
 1236,Plymouth,MA,Plymouth,510393,662,25023,,yes,yes,0,,,ma18,2334020,2018-12-21,1,1,2019-03-25 12:04:12 -0400,/us/ma/plymouth,2
 1237,Suffolk,MA,Boston,778121,59,25025,,yes,yes,0,,,ma18,28050,2018-12-21,1,1,2019-03-25 12:04:12 -0400,/us/ma/suffolk,2
@@ -1255,8 +1244,8 @@ and Newport",92066,192,21037,,yes,yes,,,,ky_campbell,36126,2016-04-04,1,1,2018-0
 1292,Cass,MI,Cassopolis,51657,508,26027,,,yes,,,,mi_cass19_02,36068,2019-02-08,0,1,2019-03-22 17:05:24 -0400,/us/mi/cass,2
 1293,Charlevoix,MI,Charlevoix,26238,1392,26029,,yes,yes,0,,,mi_charlevoix,29163,2016-03-02,1,1,2018-01-24 22:18:23 -0500,/us/mi/charlevoix,
 1294,Cheboygan,MI,Cheboygan,25427,885,26031,,yes,yes,0,,,mi_cheboygan18,30632,2018-10-24,1,1,2019-03-29 10:26:37 -0400,/us/mi/cheboygan,1
-1295,Chippewa,MI,Sault Ste. Marie,38033,2698,26033,,"",no,,,,,,,,,,/us/mi/chippewa,
-1296,Clare,MI,Harrison,30553,576,26035,,"",no,24000,,,,,,,,,/us/mi/clare,
+1295,Chippewa,MI,Sault Ste. Marie,38033,2698,26033,,,no,,,,,,,,,,/us/mi/chippewa,
+1296,Clare,MI,Harrison,30553,576,26035,,,no,24000,,,,,,,,,/us/mi/clare,
 1297,Clinton,MI,St. Johns,77390,575,26037,,yes,yes,5600,,5000,mi_clinton,36016,2016-06-07,1,1,2018-01-24 22:18:29 -0500,/us/mi/clinton,
 1298,Crawford,MI,Grayling,13801,563,26039,,yes,no,2500,,2500,,,,,,,/us/mi/crawford,
 1299,Delta,MI,Escanaba,36377,1992,26041,,yes,yes,10500,,10500,mi_delta,26013,2016-06-07,0,1,2018-01-24 22:18:31 -0500,/us/mi/delta,
@@ -1272,11 +1261,11 @@ and Newport",92066,192,21037,,yes,yes,,,,ky_campbell,36126,2016-04-04,1,1,2018-0
 1309,Houghton,MI,Houghton,36380,1502,26061,,,yes,,,,mi_houghton18,32609,2018-06-01,1,1,2019-03-29 10:33:11 -0400,/us/mi/houghton,1
 1310,Huron,MI,Bad Axe,31883,2136,26063,,,no,,,,,,,,,,/us/mi/huron,
 1311,Ingham,MI,Mason,286085,562,26065,,yes,yes,0,,,mi_ingham18,103278,2018-10-24,1,1,2018-10-11 15:13:35 -0400,/us/mi/ingham,1
-1312,Ionia,MI,"",64223,581,26067,,yes,yes,7500,,,mi_ionia19,31078,2019-02-24,1,1,2019-01-22 10:07:34 -0500,/us/mi/ionia,2
+1312,Ionia,MI,,64223,581,26067,,yes,yes,7500,,,mi_ionia19,31078,2019-02-24,1,1,2019-01-22 10:07:34 -0500,/us/mi/ionia,2
 1313,Iosco,MI,Tawas City,25345,1891,26069,,no,no,,,,,,,,,,/us/mi/iosco,
 1314,Iron,MI,Crystal Falls,11348,1211,26071,,,no,,,,,,,,,,/us/mi/iron,
 1315,Isabella,MI,Mt. Pleasant,70698,578,26073,,yes,yes,,,,mi_isabella,30376,2016-04-29,1,1,2018-01-24 22:19:22 -0500,/us/mi/isabella,
-1316,Jackson,MI,Jackson ,159494,725,26075,,yes,yes,0,,,mi_jackson,76653,2016-03-08,1,1,2018-01-24 22:19:29 -0500,/us/mi/jackson,
+1316,Jackson,MI,Jackson,159494,725,26075,,yes,yes,0,,,mi_jackson,76653,2016-03-08,1,1,2018-01-24 22:19:29 -0500,/us/mi/jackson,
 1317,Kalamazoo,MI,Kalamazoo,260263,580,26077,,yes,yes,,,14000,mi_kalamazoo19,98687,2019-02-24,1,1,2019-01-22 10:08:22 -0500,/us/mi/kalamazoo,2
 1318,Kalkaska,MI,Kalkaska,17260,571,26079,,yes,no,3500,,3500,,,,,,,/us/mi/kalkaska,
 1319,Kent,MI,Grand Rapids,636369,873,26081,,yes,yes,,,,mi_kent18,225301,2018-10-24,1,1,2019-03-29 10:34:21 -0400,/us/mi/kent,1
@@ -1286,7 +1275,7 @@ and Newport",92066,192,21037,,yes,yes,,,,ky_campbell,36126,2016-04-04,1,1,2018-0
 1323,Leelanau,MI,Suttons Bay Township,21981,2532,26089,,yes,yes,,,2773,mi_leelanau,27483,2016-06-07,1,1,2018-01-24 22:19:51 -0500,/us/mi/leelanau,
 1324,Lenawee,MI,Adrian,98573,761,26091,,yes,no,1000,,1000,,,,,,,/us/mi/lenawee,
 1325,Livingston,MI,Howell,187316,585,26093,,yes,yes,80000,,,mi_livingston,84318,2016-06-07,1,1,2018-01-24 22:19:58 -0500,/us/mi/livingston,
-1326,Luce,MI,Newberry,6415,1912,26095,,"",no,,,,,,,,,,/us/mi/luce,
+1326,Luce,MI,Newberry,6415,1912,26095,,,no,,,,,,,,,,/us/mi/luce,
 1327,Mackinac,MI,St. Ignace,10890,2101,26097,,yes,yes,,,,mi_mackinac,21458,2016-04-29,0,0,2018-01-24 22:20:00 -0500,/us/mi/mackinac,
 1328,Macomb,MI,Mt. Clemens,864840,571,26099,,yes,yes,,,,mi_macomb,325171,2015-06-16,1,0,2019-03-29 10:33:54 -0400,/us/mi/macomb,
 1329,Manistee,MI,Manistee,24461,1281,26101,,yes,no,750,,750,,,,,,,/us/mi/manistee,
@@ -1314,7 +1303,7 @@ and Newport",92066,192,21037,,yes,yes,,,,ky_campbell,36126,2016-04-04,1,1,2018-0
 1351,Saginaw,MI,Saginaw,193307,816,26145,,yes,yes,,,,mi_saginaw,96223,2015-06-19,1,1,2019-03-29 10:35:02 -0400,/us/mi/saginaw,
 1352,St. Clair,MI,Port Huron,159875,837,26147,,yes,yes,,,,mi_st_clair19,76853,2019-02-24,1,1,2019-02-06 05:53:47 -0500,/us/mi/st-clair,2
 1353,St. Joseph,MI,Centreville,61018,521,26149,,yes,yes,,,8605,mi_st_joseph,31534,2016-04-29,0,0,2018-01-24 22:22:21 -0500,/us/mi/st-joseph,
-1354,Sanilac,MI,Sandusky,41475,1591,26151,,"",no,,,,,,,,,,/us/mi/sanilac,
+1354,Sanilac,MI,Sandusky,41475,1591,26151,,,no,,,,,,,,,,/us/mi/sanilac,
 1355,Schoolcraft,MI,Manistique,8173,1884,26153,,no,no,,,,,,,,,,/us/mi/schoolcraft,
 1356,Shiawassee,MI,Corunna,68619,541,26155,,no,yes,500,,,mi_shiawassee19,34518,2019-02-24,1,1,2019-01-22 10:08:28 -0500,/us/mi/shiawassee,2
 1357,Tuscola,MI,Caro,53777,914,26157,,yes,yes,,1100,6000,mi_tuscola19,36123,2019-02-24,1,1,2019-01-22 10:08:47 -0500,/us/mi/tuscola,2
@@ -1347,7 +1336,7 @@ and Newport",92066,192,21037,,yes,yes,,,,ky_campbell,36126,2016-04-04,1,1,2018-0
 1384,Fillmore,MN,Preston,20834,861,27045,,yes,yes,,,200,mn_fillmore,19532,2016-03-04,1,1,2018-01-24 22:30:53 -0500,/us/mn/fillmore,
 1385,Freeborn,MN,Albert Lea,30613,708,27047,,yes,yes,,,,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/freeborn,
 1386,Goodhue,MN,Red Wing,46435,758,27049,,yes,yes,,,,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/goodhue,
-1387,Grant,MN,Elbow Lake,5903,546,27051,,"",no,,,,,,,,,,/us/mn/grant,
+1387,Grant,MN,Elbow Lake,5903,546,27051,,,no,,,,,,,,,,/us/mn/grant,
 1388,Hennepin,MN,Minneapolis,1223149,557,27053,,yes,yes,,,,mn_hennepin18,433134,2018-10-11,1,1,2019-03-29 10:39:38 -0400,/us/mn/hennepin,1
 1389,Houston,MN,Caledonia,18773,558,27055,,yes,yes,800,,800,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/houston,
 1390,Hubbard,MN,Park Rapids,20655,922,27057,,yes,yes,,,25,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/hubbard,
@@ -1358,17 +1347,17 @@ and Newport",92066,192,21037,,yes,yes,,,,ky_campbell,36126,2016-04-04,1,1,2018-0
 1395,Kandiyohi,MN,Willmar,42542,796,27067,,yes,yes,,,,mn_kandiyohi,28648,2016-02-29,1,1,2019-03-25 12:39:54 -0400,/us/mn/kandiyohi,
 1396,Kittson,MN,Hallock,4424,1097,27069,,yes,yes,,,,mn_kittson,9321,2016-01-12,1,1,2019-03-29 10:37:42 -0400,/us/mn/kittson,
 1397,Koochiching,MN,International Falls,12841,3102,27071,,yes,yes,,,,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/koochiching,
-1398,Lac qui Parle,MN,Madison,6856,765,27073,,"",no,,,,,,,,,,/us/mn/lac-qui-parle,
+1398,Lac qui Parle,MN,Madison,6856,765,27073,,,no,,,,,,,,,,/us/mn/lac-qui-parle,
 1399,Lake,MN,Two Harbors,10631,2099,27075,,yes,yes,,,,mn_lake,47821,2016-02-29,0,1,2018-01-24 22:31:04 -0500,/us/mn/lake,
 1400,Lake of the Woods,MN,Baudette,3923,1297,27077,,yes,yes,,,,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/lake-of-the-woods,
 1401,Le Sueur,MN,Le Center,27663,449,27079,,yes,yes,,,5,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/le-sueur,
 1402,Lincoln,MN,Ivanhoe,5771,537,27081,,yes,yes,,,13,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/lincoln,
 1403,Lyon,MN,Marshall,25673,714,27083,,yes,yes,,,400,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/lyon,
 1404,McLeod,MN,Glencoe,35932,492,27085,,yes,yes,,,,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/mcleod,
-1405,Mahnomen,MN,Mahnomen,5457,556,27087,,"",no,,,,,,,,,,/us/mn/mahnomen,
+1405,Mahnomen,MN,Mahnomen,5457,556,27087,,,no,,,,,,,,,,/us/mn/mahnomen,
 1406,Marshall,MN,Warren,9423,1772,27089,,yes,yes,,,,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/marshall,
 1407,Martin,MN,Fairmont,20022,709,27091,,yes,no,825,,825,,,,,,,/us/mn/martin,
-1408,Meeker,MN,Litchfield,23102,609,27093,,"",no,,,,,,,,,,/us/mn/meeker,
+1408,Meeker,MN,Litchfield,23102,609,27093,,,no,,,,,,,,,,/us/mn/meeker,
 1409,Mille Lacs,MN,Milaca,25788,574,27095,,yes,yes,,,,mn_millelacs,19965,2016-07-11,1,1,2018-01-24 22:31:07 -0500,/us/mn/mille-lacs,
 1410,Morrison,MN,Little Falls,32775,1125,27097,,yes,yes,,,7000,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/morrison,
 1411,Mower,MN,Austin,39116,712,27099,,yes,yes,,,500,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/mower,
@@ -1388,7 +1377,7 @@ and Newport",92066,192,21037,,yes,yes,,,,ky_campbell,36126,2016-04-04,1,1,2018-0
 1425,Redwood,MN,Redwood Falls,15471,880,27127,,yes,yes,700,,700,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/redwood,
 1426,Renville,MN,Olivia,14892,983,27129,,yes,yes,,,,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/renville,
 1427,Rice,MN,Faribault,65400,498,27131,,yes,yes,100,,100,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/rice,
-1428,Rock,MN,Luverne,9600,483,27133,,"",no,,,,,,,,,,/us/mn/rock,
+1428,Rock,MN,Luverne,9600,483,27133,,,no,,,,,,,,,,/us/mn/rock,
 1429,Roseau,MN,Roseau,15770,1663,27135,,yes,yes,,,,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/roseau,
 1430,St. Louis,MN,,200431,,27137,,yes,yes,,247,,mn_st_louis,186022,2016-03-08,1,1,2018-01-24 22:33:40 -0500,/us/mn/st-louis,
 1431,Scott,MN,Shakopee,141660,357,27139,,yes,yes,,0,,mn_scott,56217,2016-02-29,1,1,2018-01-24 22:33:02 -0500,/us/mn/scott,
@@ -1399,12 +1388,12 @@ and Newport",92066,192,21037,,yes,yes,,,,ky_campbell,36126,2016-04-04,1,1,2018-0
 1436,Stevens,MN,Morris,9796,562,27149,,yes,no,,,1500,,,,,,,/us/mn/stevens,
 1437,Swift,MN,Benson,9340,744,27151,,yes,yes,,,,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/swift,
 1438,Todd,MN,Long Prairie,24257,942,27153,,yes,yes,,,,mn_todd16,24711,2016-07-11,1,1,2018-01-24 22:33:52 -0500,/us/mn/todd,
-1439,Traverse,MN,Wheaton,3401,574,27155,,"",no,,,,,,,,,,/us/mn/traverse,
+1439,Traverse,MN,Wheaton,3401,574,27155,,,no,,,,,,,,,,/us/mn/traverse,
 1440,Wabasha,MN,Wabasha,21239,525,27157,,yes,yes,,,,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/wabasha,
 1441,Wadena,MN,Wadena,13875,535,27159,,yes,yes,,,,mn_wadena,11158,2016-07-11,1,1,2018-01-24 22:33:53 -0500,/us/mn/wadena,
 1442,Waseca,MN,Waseca,18989,423,27161,,yes,yes,,,,mn_waseca,11621,2016-02-29,1,1,2018-01-24 22:33:55 -0500,/us/mn/waseca,
 1443,Washington,MN,Stillwater,251597,392,27163,,yes,yes,,,,mn_washington,106045,2016-02-29,1,1,2018-01-24 22:34:07 -0500,/us/mn/washington,
-1444,Watonwan,MN,St. James,10952,435,27165,,"",no,,,,,,,,,,/us/mn/watonwan,
+1444,Watonwan,MN,St. James,10952,435,27165,,,no,,,,,,,,,,/us/mn/watonwan,
 1445,Wilkin,MN,Breckenridge,6396,751,27167,,yes,yes,,,,mn_wilkin16,8261,2016-07-11,1,1,2018-01-24 22:34:08 -0500,/us/mn/wilkin,
 1446,Winona,MN,Winona,50885,626,27169,,yes,yes,0,0,,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/winona,
 1447,Wright,MN,Buffalo,131311,661,27171,,yes,yes,,,1000,mn,2805861,2016-07-11,1,1,2019-03-25 12:39:43 -0400,/us/mn/wright,
@@ -1525,9 +1514,9 @@ and Newport",92066,192,21037,,yes,yes,,,,ky_campbell,36126,2016-04-04,1,1,2018-0
 1562,Worth,MO,Grant City,2057,266,29227,,,no,,,,,,,,,,/us/mo/worth,
 1563,Wright,MO,Hartville,18268,682,29229,,yes,yes,,,,mo_wright,8235,2016-06-03,0,1,2019-03-25 12:40:51 -0400,/us/mo/wright,
 1565,Adams,MS,Kirksville,31254,730,28001,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/adams,
-1566,Alcorn,MS,Savannah,37388,735,28003,,"",no,,,,,,,,,,/us/ms/alcorn,
+1566,Alcorn,MS,Savannah,37388,735,28003,,,no,,,,,,,,,,/us/ms/alcorn,
 1567,Amite,MS,Rock Port,12574,407,28005,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/amite,
-1568,Attala,MS,Mexico,19043,876,28007,,"",no,,,,,,,,,,/us/ms/attala,
+1568,Attala,MS,Mexico,19043,876,28007,,,no,,,,,,,,,,/us/ms/attala,
 1569,Benton,MS,Cassville,8182,587,28009,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/benton,
 1570,Bolivar,MS,Lamar,33322,628,28011,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/bolivar,
 1571,Calhoun,MS,Butler,14717,502,28013,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/calhoun,
@@ -1549,15 +1538,15 @@ and Newport",92066,192,21037,,yes,yes,,,,ky_campbell,36126,2016-04-04,1,1,2018-0
 1587,Hancock,MS,Kahoka,46420,869,28045,,yes,yes,,,,ms_hancock,51702,2015-08-21,1,1,2019-03-29 10:40:13 -0400,/us/ms/hancock,
 1588,Harrison,MS,Liberty,201410,756,28047,,yes,yes,,,,ms_harrison,96568,2016-05-02,1,1,2019-03-25 12:41:17 -0400,/us/ms/harrison,
 1589,Hinds,MS,Plattsburg,242891,418,28049,,yes,yes,,,,ms_hinds,126493,2016-05-27,1,0,2018-01-24 22:41:30 -0500,/us/ms/hinds,
-1590,Holmes,MS,Jefferson City,18340,413,28051,,"",no,,,,,,,,,,/us/ms/holmes,
+1590,Holmes,MS,Jefferson City,18340,413,28051,,,no,,,,,,,,,,/us/ms/holmes,
 1591,Humphreys,MS,Boonville,8669,532,28053,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/humphreys,
-1592,Issaquena,MS,Steelville,1337,727,28055,,"",no,,,,,,,,,,/us/ms/issaquena,
+1592,Issaquena,MS,Steelville,1337,727,28055,,,no,,,,,,,,,,/us/ms/issaquena,
 1593,Itawamba,MS,Greenfield,23609,676,28057,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/itawamba,
 1594,Jackson,MS,Buffalo,141425,519,28059,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/jackson,
 1595,Jasper,MS,Gallatin,16569,408,28061,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/jasper,
 1596,Jefferson,MS,Maysville,7507,694,28063,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/jefferson,
 1597,Jefferson Davis,MS,Salem,11665,766,28065,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/jefferson-davis,
-1598,Jones,MS,Ava,68215,631,28067,,"",no,,,,,,,,,,/us/ms/jones,
+1598,Jones,MS,Ava,68215,631,28067,,,no,,,,,,,,,,/us/ms/jones,
 1599,Kemper,MS,Kennett,9969,497,28069,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/kemper,
 1600,Lafayette,MS,Union,53154,704,28071,,yes,yes,,,,ms_lafayette,25125,2016-05-27,0,0,2018-01-24 22:41:41 -0500,/us/ms/lafayette,
 1601,Lamar,MS,Hermann,60618,431,28073,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/lamar,
@@ -1571,8 +1560,7 @@ and Newport",92066,192,21037,,yes,yes,,,,ky_campbell,36126,2016-04-04,1,1,2018-0
 1609,Madison,MS,Fayette,103465,706,28089,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/madison,
 1610,Marion,MS,West Plains,25563,764,28091,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/marion,
 1611,Marshall,MS,Ironton,35916,407,28093,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/marshall,
-1612,Monroe,MS,"Kansas City,
-Independence",35827,570,28095,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/monroe,
+1612,Monroe,MS,Kansas City Independence,35827,570,28095,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/monroe,
 1613,Montgomery,MS,Carthage,10152,578,28097,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/montgomery,
 1614,Neshoba,MS,Hillsboro,29463,695,28099,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/neshoba,
 1615,Newton,MS,Warrensburg,21747,458,28101,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/newton,
@@ -1583,20 +1571,20 @@ Independence",35827,570,28095,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 1
 1620,Perry,MS,Monticello,12277,497,28111,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/perry,
 1621,Pike,MS,Troy,39956,415,28113,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/pike,
 1622,Pontotoc,MS,Linneus,30908,405,28115,,yes,yes,,,,ms_pontotoc,18892,2016-05-27,1,1,2018-01-24 22:41:50 -0500,/us/ms/pontotoc,
-1623,Prentiss,MS,Chillicothe,25459,775,28117,,"",no,,,,,,,,,,/us/ms/prentiss,
+1623,Prentiss,MS,Chillicothe,25459,775,28117,,,no,,,,,,,,,,/us/ms/prentiss,
 1624,Quitman,MS,Macon,7486,609,28119,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/quitman,
 1625,Rankin,MS,Fredericktown,149039,428,28121,,yes,yes,,,,ms_rankin,74701,2016-05-27,1,1,2019-03-25 12:41:19 -0400,/us/ms/rankin,
 1626,Scott,MS,Vienna,28265,589,28123,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/scott,
 1627,Sharkey,MS,Palmyra,4585,636,28125,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/sharkey,
 1628,Simpson,MS,Pineville,27222,445,28127,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/simpson,
-1629,Smith,MS,Princeton,16059,694,28129,,"",no,,,,,,,,,,/us/ms/smith,
+1629,Smith,MS,Princeton,16059,694,28129,,,no,,,,,,,,,,/us/ms/smith,
 1630,Stone,MS,Tuscumbia,18070,644,28131,,yes,yes,,,,ms_stone,13235,2016-05-02,1,1,2018-01-24 22:41:59 -0500,/us/ms/stone,
-1631,Sunflower,MS,Charleston,27005,404,28133,,"",no,,,,,,,,,,/us/ms/sunflower,
+1631,Sunflower,MS,Charleston,27005,404,28133,,,no,,,,,,,,,,/us/ms/sunflower,
 1632,Tallahatchie,MS,California,14588,458,28135,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/tallahatchie,
 1633,Tate,MS,Paris,28296,424,28137,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/tate,
 1634,Tippah,MS,Montgomery City,22131,455,28139,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/tippah,
 1635,Tishomingo,MS,Versailles,19552,416,28141,,yes,no,,,,,,,,,,/us/ms/tishomingo,
-1636,Tunica,MS,New Madrid,10343,404,28143,,"",no,,,,,,,,,,/us/ms/tunica,
+1636,Tunica,MS,New Madrid,10343,404,28143,,,no,,,,,,,,,,/us/ms/tunica,
 1637,Union,MS,Neosho,28429,587,28145,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/union,
 1638,Walthall,MS,Maryville,14638,724,28147,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/walthall,
 1639,Warren,MS,Alton,47485,810,28149,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/warren,
@@ -1604,7 +1592,7 @@ Independence",35827,570,28095,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 1
 1641,Wayne,MS,Gainesville,20566,677,28153,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/wayne,
 1642,Webster,MS,Caruthersville,9899,607,28155,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/webster,
 1643,Wilkinson,MS,Perryville,9122,467,28157,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/wilkinson,
-1644,Winston,MS,Sedalia,18317,920,28159,,"",no,,,,,,,,,,/us/ms/winston,
+1644,Winston,MS,Sedalia,18317,920,28159,,,no,,,,,,,,,,/us/ms/winston,
 1645,Yalobusha,MS,Rolla,12447,673,28161,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/yalobusha,
 1646,Yazoo,MS,Bowling Green,27387,673,28163,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 12:41:15 -0400,/us/ms/yazoo,
 1647,Beaverhead,MT,Dillon,9300,5543,30001,,yes,yes,0,0,,mt19,750313,2019-02-26,1,1,2019-03-06 18:44:52 -0500,/us/mt/beaverhead,2
@@ -1782,20 +1770,20 @@ Independence",35827,570,28095,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 1
 1819,Golden Valley,ND,Beach,1845,1002,38033,,yes,yes,,,,nd_golden_valley,3552,2016-05-09,1,1,2018-01-24 22:57:50 -0500,/us/nd/golden-valley,
 1820,Grand Forks,ND,Grand Forks,70916,1438,38035,,yes,yes,,,,nd_grand_forks,10534,2016-05-09,1,1,2018-01-24 22:57:51 -0500,/us/nd/grand-forks,
 1821,Grant,ND,Carson,2388,1660,38037,,yes,yes,,,,nd_grant,7636,2016-09-01,0,0,2018-12-04 14:45:12 -0500,/us/nd/grant,
-1822,Griggs,ND,Cooperstown,2314,708,38039,,"",no,,,,,,,,,,/us/nd/griggs,
+1822,Griggs,ND,Cooperstown,2314,708,38039,,,no,,,,,,,,,,/us/nd/griggs,
 1823,Hettinger,ND,Mott,2704,1132,38041,,yes,no,,,150,,,,,,,/us/nd/hettinger,
-1824,Kidder,ND,Steele,2417,1352,38043,,"",no,,,,,,,,,,/us/nd/kidder,
+1824,Kidder,ND,Steele,2417,1352,38043,,,no,,,,,,,,,,/us/nd/kidder,
 1825,LaMoure,ND,LaMoure,4125,1147,38045,,yes,yes,,,,nd_lamoure,9849,2016-05-09,0,0,2018-12-04 14:45:15 -0500,/us/nd/lamoure,
 1826,Logan,ND,Napoleon,1935,993,38047,,,no,,,,,,,,,,/us/nd/logan,
 1827,McHenry,ND,Towner,5968,1874,38049,,yes,yes,,,,nd_mchenry,15513,2016-05-09,0,0,2018-01-24 22:57:54 -0500,/us/nd/mchenry,
 1828,McIntosh,ND,Ashley,2759,975,38051,,,no,,,,,,,,,,/us/nd/mcintosh,
 1829,McKenzie,ND,Watford,12826,2742,38053,,yes,yes,0,,,nd_mckenzie,15808,2015-03-20,0,1,2019-03-29 10:42:02 -0400,/us/nd/mckenzie,
 1830,McLean,ND,Washburn,9744,2110,38055,,yes,yes,,,,nd_mclean,19821,2016-09-01,0,0,2018-12-04 14:45:22 -0500,/us/nd/mclean,
-1831,Mercer,ND,Stanton,8853,1045,38057,,"",no,,,,,,,,,,/us/nd/mercer,
+1831,Mercer,ND,Stanton,8853,1045,38057,,,no,,,,,,,,,,/us/nd/mercer,
 1832,Morton,ND,Mandan,30310,1926,38059,,yes,yes,,,,nd_morton,11867,2016-09-01,1,1,2018-01-24 22:57:59 -0500,/us/nd/morton,
 1833,Mountrail,ND,Stanley,10331,1824,38061,,yes,yes,,,,nd_mountrail,16273,2016-05-09,0,0,2018-01-24 22:58:02 -0500,/us/nd/mountrail,
 1834,Nelson,ND,Lakota,2968,982,38063,,,no,,,,,,,,,,/us/nd/nelson,
-1835,Oliver,ND,Center,1846,724,38065,,"",no,,,,,,,,,,/us/nd/oliver,
+1835,Oliver,ND,Center,1846,724,38065,,,no,,,,,,,,,,/us/nd/oliver,
 1836,Pembina,ND,Cavalier,7091,1119,38067,,yes,yes,,,,nd_pembina,11415,2016-09-01,0,1,2018-01-24 22:58:02 -0500,/us/nd/pembina,
 1837,Pierce,ND,Rugby,4312,1018,38069,,,no,,,,,,,,,,/us/nd/pierce,
 1838,Ramsey,ND,Devils Lake,11630,1186,38071,,yes,no,,,,,,,,,,/us/nd/ramsey,
@@ -1914,9 +1902,7 @@ Independence",35827,570,28095,,yes,yes,,,,ms,1144432,2016-05-27,1,1,2019-03-25 1
 1951,Cheshire,NH,Keene,75909,708,33005,,yes,yes,0,0,,nh,578233,2016-01-25,1,0,2019-03-29 10:44:55 -0400,/us/nh/cheshire,
 1952,Coos,NH,Lancaster,31212,1801,33007,,yes,yes,0,0,,nh,578233,2016-01-25,1,0,2019-03-29 10:44:55 -0400,/us/nh/coos,
 1953,Grafton,NH,North Haverhill,89320,1714,33009,,yes,yes,0,0,,nh,578233,2016-01-25,1,0,2019-03-29 10:44:55 -0400,/us/nh/grafton,
-1954,Hillsborough,NH,"Manchester
-and
-Nashua",406678,876,33011,,yes,yes,0,0,,nh,578233,2016-01-25,1,0,2019-03-29 10:44:55 -0400,/us/nh/hillsborough,
+1954,Hillsborough,NH,Manchester and Nashua,406678,876,33011,,yes,yes,0,0,,nh,578233,2016-01-25,1,0,2019-03-29 10:44:55 -0400,/us/nh/hillsborough,
 1955,Merrimack,NH,Concord,147994,934,33013,,yes,yes,0,0,,nh,578233,2016-01-25,1,0,2019-03-29 10:44:55 -0400,/us/nh/merrimack,
 1956,Rockingham,NH,Brentwood,301777,695,33015,,yes,yes,0,0,,nh,578233,2016-01-25,1,0,2019-03-29 10:44:55 -0400,/us/nh/rockingham,
 1957,Strafford,NH,Dover,126825,369,33017,,yes,yes,0,0,,nh,578233,2016-01-25,1,0,2019-03-29 10:44:55 -0400,/us/nh/strafford,
@@ -1927,7 +1913,7 @@ Nashua",406678,876,33011,,yes,yes,0,0,,nh,578233,2016-01-25,1,0,2019-03-29 10:44
 1962,Cibola,NM,Grants,27329,4540,35006,,yes,yes,150,0,,nm_cibola19,22782,2019-03-13,1,1,2019-03-25 15:31:29 -0400,/us/nm/cibola,2
 1963,Colfax,NM,Raton,12414,3757,35007,,yes,yes,,,,nm_colfax19,32119,2019-03-13,1,1,2019-02-20 08:36:50 -0500,/us/nm/colfax,2
 1964,Curry,NM,Clovis,50398,1406,35009,,yes,yes,,,,nm_curry19,25839,2019-03-13,1,1,2019-02-20 08:36:45 -0500,/us/nm/curry,2
-1965,De Baca,NM,Fort Sumner,1828,2325,35011,,"",yes,50,,,nm_de_baca19,4065,2019-03-13,1,1,2019-02-20 08:36:49 -0500,/us/nm/de-baca,2
+1965,De Baca,NM,Fort Sumner,1828,2325,35011,,,yes,50,,,nm_de_baca19,4065,2019-03-13,1,1,2019-02-20 08:36:49 -0500,/us/nm/de-baca,2
 1966,Doña Ana,NM,,214295,,35013,,yes,yes,,,,nm_dona_ana19,86909,2019-03-13,1,1,2019-02-20 08:37:41 -0500,/us/nm/dona-ana,2
 1967,Eddy,NM,Carlsbad,57578,4182,35015,,yes,yes,,,,nm_eddy19,51940,2019-03-13,1,1,2019-02-20 08:37:46 -0500,/us/nm/eddy,2
 1968,Grant,NM,Silver City,28609,3966,35017,,,yes,,,,nm_grant19,45263,2019-03-13,1,1,2019-03-07 05:23:02 -0500,/us/nm/grant,2
@@ -1981,7 +1967,7 @@ Nashua",406678,876,33011,,yes,yes,0,0,,nh,578233,2016-01-25,1,0,2019-03-29 10:44
 2016,Chemung,NY,Elmira,87071,411,36015,,yes,no,,,,,,,,,,/us/ny/chemung,
 2017,Chenango,NY,Norwich,48844,89885,36017,,yes,no,,,250,,,,,,,/us/ny/chenango,
 2018,Clinton,NY,Plattsburgh,81251,1118,36019,,yes,yes,,,,ny_clinton,37839,2016-03-04,1,0,2018-01-24 23:14:17 -0500,/us/ny/clinton,
-2019,Columbia,NY,Hudson,61509,648,36021,,"",no,,,,,,,,,,/us/ny/columbia,
+2019,Columbia,NY,Hudson,61509,648,36021,,,no,,,,,,,,,,/us/ny/columbia,
 2020,Cortland,NY,Cortland,48494,502,36023,,yes,yes,,,,ny_cortland,23349,2015-08-19,1,1,2019-03-29 10:53:05 -0400,/us/ny/cortland,
 2021,Delaware,NY,Delhi,46053,1468,36025,,yes,yes,1000,1000,,ny_delaware,42818,2016-04-13,1,1,2018-01-24 23:14:21 -0500,/us/ny/delaware,
 2022,Dutchess,NY,Poughkeepsie,295754,825,36027,,yes,yes,,,680,ny_dutchess,109446,2015-08-19,0,0,2019-03-29 10:53:18 -0400,/us/ny/dutchess,
@@ -2011,9 +1997,9 @@ Nashua",406678,876,33011,,yes,yes,0,0,,nh,578233,2016-01-25,1,0,2019-03-29 10:44
 2046,Oswego,NY,Oswego,120146,1312,36075,,yes,yes,,,,ny_oswego,58796,2015-08-19,1,1,2019-03-29 10:58:20 -0400,/us/ny/oswego,
 2047,Otsego,NY,Cooperstown,60636,1003,36077,,yes,yes,,,,ny_otsego,39043,2015-08-19,1,1,2019-03-29 10:58:26 -0400,/us/ny/otsego,
 2048,Putnam,NY,Carmel,99042,246,36079,,yes,yes,,,,ny_putnam,43905,2016-03-02,1,1,2018-01-24 23:17:18 -0500,/us/ny/putnam,
-2049,Queens,NY,"",2339150,178,36081,,yes,yes,0,0,,ny_nyc18,857536,2018-12-10,1,1,2019-03-29 11:00:40 -0400,/us/ny/queens,1
+2049,Queens,NY,,2339150,178,36081,,yes,yes,0,0,,ny_nyc18,857536,2018-12-10,1,1,2019-03-29 11:00:40 -0400,/us/ny/queens,1
 2050,Rensselaer,NY,Troy,160266,665,36083,,yes,yes,,,,ny_rensselaer18,66752,2018-12-08,1,1,2018-12-07 08:39:54 -0500,/us/ny/rensselaer,
-2051,Richmond,NY,"",474558,102,36085,,yes,yes,0,0,,ny_nyc18,857536,2018-12-10,1,1,2019-03-29 11:00:40 -0400,/us/ny/richmond,1
+2051,Richmond,NY,,474558,102,36085,,yes,yes,0,0,,ny_nyc18,857536,2018-12-10,1,1,2019-03-29 11:00:40 -0400,/us/ny/richmond,1
 2052,Rockland,NY,New City,326037,199,36087,,yes,yes,,,,ny_rockland,89801,2016-04-05,1,1,2018-01-24 23:17:33 -0500,/us/ny/rockland,
 2053,St. Lawrence,NY,Canton,111007,2821,36089,,yes,yes,,,,ny_st_lawrence,70407,2016-03-14,1,1,2016-03-14 20:05:57 -0400,/us/ny/st-lawrence,
 2054,Saratoga,NY,Ballston Spa,226249,844,36091,,yes,yes,,,,ny_saratoga,94716,2016-04-11,1,1,2018-01-24 23:17:42 -0500,/us/ny/saratoga,
@@ -2065,7 +2051,7 @@ Nashua",406678,876,33011,,yes,yes,0,0,,nh,578233,2016-01-25,1,0,2019-03-29 10:44
 2100,Guernsey,OH,Cambridge,39258,52190,39059,,yes,yes,,,,oh_guernsey18,41566,2018-09-30,1,1,2019-03-29 11:04:20 -0400,/us/oh/guernsey,1
 2101,Hamilton,OH,Cincinnati,807598,412,39061,,yes,yes,,,,oh_hamilton18,419322,2018-09-30,1,1,2019-03-29 11:06:39 -0400,/us/oh/hamilton,1
 2102,Hancock,OH,Findlay,75573,53135,39063,,yes,yes,0,0,,oh_hancock18,38466,2018-09-30,1,1,2019-03-29 11:05:11 -0400,/us/oh/hancock,1
-2103,Hardin,OH,Kenton,31682,47029,39065,,"",no,400,,,,,,,,,/us/oh/hardin,
+2103,Hardin,OH,Kenton,31682,47029,39065,,,no,400,,,,,,,,,/us/oh/hardin,
 2104,Harrison,OH,Cadiz,15450,411,39067,,yes,yes,0,,,oh_harrison18,17267,2018-09-30,1,1,2019-03-29 11:05:15 -0400,/us/oh/harrison,1
 2105,Henry,OH,Napoleon,27816,41650,39069,,yes,yes,,,,oh_henry18,19507,2018-09-30,1,1,2019-03-29 11:05:19 -0400,/us/oh/henry,1
 2106,Highland,OH,Hillsboro,43026,55328,39071,,yes,yes,,,,oh_highland18,32266,2018-10-17,1,0,2019-03-29 11:05:26 -0400,/us/oh/highland,1
@@ -2114,7 +2100,7 @@ Nashua",406678,876,33011,,yes,yes,0,0,,nh,578233,2016-01-25,1,0,2019-03-29 10:44
 2149,Tuscarawas,OH,New Philadelphia,92916,56758,39157,,yes,yes,,,,oh_tuscarawas18,58191,2018-09-20,1,1,2019-03-29 11:12:01 -0400,/us/oh/tuscarawas,1
 2150,Union,OH,Marysville,54277,43665,39159,,yes,yes,,,,oh_union18,20217,2018-09-20,1,1,2019-03-29 11:12:08 -0400,/us/oh/union,1
 2151,Van Wert,OH,Van Wert,28562,41009,39161,,yes,yes,,,,oh_van_wert18,19268,2018-09-20,1,1,2019-03-29 11:12:11 -0400,/us/oh/van-wert,1
-2152,Vinton,OH,McArthur,13048,41408,39163,,"",yes,,,,oh_vinton18,12735,2018-09-20,1,,2019-03-29 11:12:11 -0400,/us/oh/vinton,1
+2152,Vinton,OH,McArthur,13048,41408,39163,,,yes,,,,oh_vinton18,12735,2018-09-20,1,,2019-03-29 11:12:11 -0400,/us/oh/vinton,1
 2153,Warren,OH,Lebanon,224469,39963,39165,,yes,yes,0,0,,oh_warren18,98567,2018-09-20,1,1,2019-03-29 11:13:00 -0400,/us/oh/warren,1
 2154,Washington,OH,Marietta,61112,63515,39167,,yes,yes,0,0,,oh_washington18,60711,2018-09-20,1,1,2019-03-29 11:12:26 -0400,/us/oh/washington,1
 2155,Wayne,OH,Wooster,116063,55536,39169,,yes,yes,,,,oh_wayne18,56863,2018-09-20,1,1,2019-03-29 11:12:38 -0400,/us/oh/wayne,1
@@ -2238,7 +2224,7 @@ Nashua",406678,876,33011,,yes,yes,0,0,,nh,578233,2016-01-25,1,0,2019-03-29 10:44
 2273,Allegheny,PA,Pittsburgh,1230459,745,42003,,yes,yes,52,52,,pa_allegheny_2015,577200,2015-06-11,1,1,2019-03-29 11:16:25 -0400,/us/pa/allegheny,
 2274,Armstrong,PA,Kittanning,67052,664,42005,,yes,no,,,1200,,,,,,,/us/pa/armstrong,
 2275,Beaver,PA,Beaver,168871,444,42007,,yes,yes,,,,pa_beaver18,89445,2019-01-11,1,1,2019-01-09 09:50:31 -0500,/us/pa/beaver,1
-2276,Bedford,PA,Bedford,48586,1015,42009,,"",yes,,,,pa_bedford18,33858,2019-01-11,1,1,2019-01-09 11:06:39 -0500,/us/pa/bedford,2
+2276,Bedford,PA,Bedford,48586,1015,42009,,,yes,,,,pa_bedford18,33858,2019-01-11,1,1,2019-01-09 11:06:39 -0500,/us/pa/bedford,2
 2277,Berks,PA,Reading,415271,866,42011,,yes,yes,,,,pa_berks18,155954,2019-01-11,1,1,2019-01-09 09:51:32 -0500,/us/pa/berks,2
 2278,Blair,PA,Hollidaysburg,125593,527,42013,,yes,yes,,,,pa_blair18,65820,2019-01-11,1,0,2019-01-09 09:50:41 -0500,/us/pa/blair,1
 2279,Bradford,PA,Towanda,61281,1161,42015,,Yes,yes,150,,,pa_bradford18,34355,2019-01-11,0,1,2019-01-09 09:50:38 -0500,/us/pa/bradford,1
@@ -2298,7 +2284,7 @@ Nashua",406678,876,33011,,yes,yes,0,0,,nh,578233,2016-01-25,1,0,2019-03-29 10:44
 2333,Washington,PA,Washington,208261,861,42125,,yes,yes,,,,pa_washington18,113874,2019-01-29,0,0,2019-01-09 09:59:03 -0500,/us/pa/washington,2
 2334,Wayne,PA,Honesdale,51198,751,42127,,yes,yes,1400,,1400,pa_wayne18,57971,2019-01-29,1,1,2019-01-11 07:39:16 -0500,/us/pa/wayne,2
 2335,Westmoreland,PA,Greensburg,357956,1037,42129,,yes,yes,,,,pa_westmoreland19,187956,2019-02-11,1,1,2019-02-11 22:54:37 -0500,/us/pa/westmoreland,2
-2336,Wyoming,PA,Tunkhannock,27800,405,42131,,"",yes,800,,800,pa_wyoming18,16415,2019-01-29,1,1,2019-01-09 09:58:35 -0500,/us/pa/wyoming,2
+2336,Wyoming,PA,Tunkhannock,27800,405,42131,,,yes,800,,800,pa_wyoming18,16415,2019-01-29,1,1,2019-01-09 09:58:35 -0500,/us/pa/wyoming,2
 2337,York,PA,York,442867,910,42133,,yes,yes,,,,pa_york18,171041,2019-01-29,1,1,2019-01-09 10:00:05 -0500,/us/pa/york,2
 2338,Bristol,RI,Gettysburg,49084,24,44001,,yes,yes,,,,ri_bristol18,15718,2018-11-30,1,,2018-11-20 04:58:03 -0500,/us/ri/bristol,
 2339,Kent,RI,Pittsburgh,164801,168,44003,,yes,yes,,,,ri_kent18,66276,2018-11-30,1,1,2018-11-20 04:58:27 -0500,/us/ri/kent,
@@ -2521,7 +2507,7 @@ Nashua",406678,876,33011,,yes,yes,0,0,,nh,578233,2016-01-25,1,0,2019-03-29 10:44
 2557,Angelina,TX,Lufkin,88255,802,48005,,yes,yes,0,0,,tx_angelina,58762,2016-04-28,1,1,2018-01-25 00:04:59 -0500,/us/tx/angelina,
 2558,Aransas,TX,Rockport,25350,252,48007,,yes,yes,0,0,,tx_aransas17,24735,2015-11-20,1,1,2019-03-29 16:05:30 -0400,/us/tx/aransas,
 2559,Archer,TX,Archer City,8715,910,48009,,,no,,,,,,,,,,/us/tx/archer,
-2560,Armstrong,TX,Claude,1947,914,48011,,"",no,,,,,,,,,,/us/tx/armstrong,
+2560,Armstrong,TX,Claude,1947,914,48011,,,no,,,,,,,,,,/us/tx/armstrong,
 2561,Atascosa,TX,Jourdanton,48435,1232,48013,,yes,yes,0,0,,tx_atascosa,30365,2015-11-20,1,1,2019-03-29 16:05:34 -0400,/us/tx/atascosa,
 2562,Austin,TX,Bellville,29563,653,48015,,yes,yes,0,0,,tx_austin,21771,2015-11-24,1,1,2019-03-29 16:05:37 -0400,/us/tx/austin,
 2563,Bailey,TX,Muleshoe,7210,827,48017,,,no,,,,,,,,,,/us/tx/bailey,
@@ -2730,7 +2716,7 @@ Nashua",406678,876,33011,,yes,yes,0,0,,nh,578233,2016-01-25,1,0,2019-03-29 10:44
 2766,Smith,TX,Tyler,222936,928,48423,,yes,yes,0,0,,tx_smith,127026,2016-04-11,1,1,2018-01-25 00:28:35 -0500,/us/tx/smith,
 2767,Somervell,TX,Glen Rose,8739,187,48425,,,no,,,,,,,,,,/us/tx/somervell,
 2768,Starr,TX,Rio Grande City,63795,1223,48427,,,no,,,,,,,,,,/us/tx/starr,
-2769,Stephens,TX,Breckenridge,9440,895,48429,,"",no,,,,,,,,,,/us/tx/stephens,
+2769,Stephens,TX,Breckenridge,9440,895,48429,,,no,,,,,,,,,,/us/tx/stephens,
 2770,Sterling,TX,Sterling City,1352,923,48431,,,no,,,,,,,,,2016-02-05 15:08:13 -0500,/us/tx/sterling,
 2771,Stonewall,TX,Aspermont,1410,919,48433,,,no,,,,,,,,,,/us/tx/stonewall,
 2772,Sutton,TX,Sonora,3913,1454,48435,,yes,yes,,,,tx_sutton,5601,2016-04-29,1,1,2019-03-27 10:54:06 -0400,/us/tx/sutton,
@@ -2977,7 +2963,7 @@ Nashua",406678,876,33011,,yes,yes,0,0,,nh,578233,2016-01-25,1,0,2019-03-29 10:44
 3019,Wahkiakum,WA,Cathlamet,4042,264,53069,,yes,yes,,,,wa_wahkiakum,4183,2016-03-09,1,0,2018-01-25 00:46:04 -0500,/us/wa/wahkiakum,
 3020,Walla Walla,WA,Walla Walla,60338,1270,53071,,yes,yes,,,,wa_walla_walla,29340,2016-04-27,1,1,2019-03-25 20:55:00 -0400,/us/wa/walla-walla,
 3021,Whatcom,WA,Bellingham,212284,2120,53073,,yes,yes,0,,,wa_whatcom,107522,2016-03-15,1,0,2018-01-25 00:46:14 -0500,/us/wa/whatcom,
-3022,Whitman,WA,Colfax,48177,2159,53075,,"",no,,,,,,,,,,/us/wa/whitman,
+3022,Whitman,WA,Colfax,48177,2159,53075,,,no,,,,,,,,,,/us/wa/whitman,
 3023,Yakima,WA,Yakima,248830,4296,53077,,yes,yes,,,,wa_yakima,104291,2016-03-09,1,0,2018-01-25 00:46:21 -0500,/us/wa/yakima,
 3024,Adams,WI,Friendship,20148,64565,55001,,yes,yes,,,,wi19,2640364,2019-03-25,1,1,2019-03-25 21:09:28 -0400,/us/wi/adams,2
 3025,Ashland,WI,Ashland,15843,104504,55003,,yes,yes,,,,wi19,2640364,2019-03-25,1,1,2019-03-25 21:09:28 -0400,/us/wi/ashland,2
@@ -3244,3 +3230,4 @@ Nashua",406678,876,33011,,yes,yes,0,0,,nh,578233,2016-01-25,1,0,2019-03-29 10:44
 10184,Monroe,MI,,,,26115,monroe,,yes,,,,mi_monroe_monroe18,7711,2018-11-02,1,1,2019-03-29 10:33:57 -0400,/us/mi/monroe/monroe,
 10186,Midland,MI,,,,26111,midland,,yes,,,,mi_midland_midland19,17000,2019-02-24,1,1,2019-02-06 05:39:25 -0500,/us/mi/midland/midland,2
 10187,Saginaw,MI,,,,26145,saginaw,,yes,,,,mi_saginaw_saginaw19,26375,2019-02-24,1,1,2019-01-22 10:08:13 -0500,/us/mi/saginaw/saginaw,2
+,,,,,,,,,,,,,,,,,,,,
