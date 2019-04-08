@@ -23,10 +23,10 @@ const questionsRouter = require( "express" ).Router();
             "id": 1,
             "questions": "What kind of food does your fridge have in it?",
             "answers": [{
-                "id: 1,
+                "id": 1,
                 "answers": "Meat mostly",
-                "question_id": '1",
-                "amount_diff": "30"
+                "question_id": 1,
+                "amount_diff": 0
                 
             }...
             ]
