@@ -207,6 +207,77 @@ define({ "api": [
     }
   },
   {
+    "type": "post",
+    "url": "/api/residential/search/avg",
+    "title": "Avg price/sqr ft for keyword.",
+    "version": "1.0.0",
+    "name": "AvgPriceSqrFtKeyword",
+    "group": "Parcel",
+    "examples": [
+      {
+        "title": "Request example:",
+        "content": "axios.post('/api/residential/search/avg', {keyword: \"granite\"});",
+        "type": "json"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "keyword",
+            "description": "<p>Keyword to look for in public remarks.</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "examples": [
+        {
+          "title": "Residential Data",
+          "content": "[\n {\n        \"avg(`price_sqr_ft`)\": 210.10526315789474,\n        \"avg(`sale_price`)\": 315024.29411764705,\n        \"avg(`sqft_est_tot_fin`)\": 1946.6470588235295\n    }\n ]",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "routes/residental/residential-router.js",
+    "groupTitle": "Parcel",
+    "sampleRequest": [
+      {
+        "url": "http://localhost:3333/api/residential/search/avg"
+      }
+    ],
+    "error": {
+      "fields": {
+        "Error XXX": [
+          {
+            "group": "Error XXX",
+            "type": "Number",
+            "optional": false,
+            "field": "status",
+            "description": "<p>The status code response.</p>"
+          },
+          {
+            "group": "Error XXX",
+            "type": "String",
+            "optional": false,
+            "field": "message",
+            "description": "<p>Error message</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error Example:",
+          "content": "ERROR XXX\n{\n    \"status\": xxx,\n    \"message\": \"Some Error Message\"\n}",
+          "type": "json"
+        }
+      ]
+    }
+  },
+  {
     "type": "get",
     "url": "/api/parcel",
     "title": "Get parcel data",
@@ -403,7 +474,7 @@ define({ "api": [
     "examples": [
       {
         "title": "Request example:",
-        "content": "axios.post('/api/residential/zip', {keyword: \"granite\"});",
+        "content": "axios.post('/api/residential/search', {keyword: \"granite\"});",
         "type": "json"
       }
     ],

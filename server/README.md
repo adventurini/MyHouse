@@ -7,6 +7,7 @@ Api for MyHouse project storing and getting information from the sqlite database
 	- [Get answers](#get-answers)
 	
 - [Parcel](#parcel)
+	- [Avg price/sqr ft for keyword.](#avg-price/sqr-ft-for-keyword.)
 	- [Get parcel data](#get-parcel-data)
 	- [Get residential data](#get-residential-data)
 	- [Get residential data by zip code](#get-residential-data-by-zip-code)
@@ -113,6 +114,51 @@ ERROR XXX
 ```
 # Parcel
 
+## Avg price/sqr ft for keyword.
+
+
+
+	POST /api/residential/search/avg
+
+
+### Parameters
+
+| Name    | Type      | Description                          |
+|---------|-----------|--------------------------------------|
+| keyword			| String			|  <p>Keyword to look for in public remarks.</p>							|
+
+### Examples
+
+Request example:
+
+```
+axios.post('/api/residential/search/avg', {keyword: "granite"});
+```
+
+### Success Response
+
+Residential Data
+
+```
+[
+ {
+        "avg(`price_sqr_ft`)": 210.10526315789474,
+        "avg(`sale_price`)": 315024.29411764705,
+        "avg(`sqft_est_tot_fin`)": 1946.6470588235295
+    }
+ ]
+```
+### Error Response
+
+Error Example:
+
+```
+ERROR XXX
+{
+    "status": xxx,
+    "message": "Some Error Message"
+}
+```
 ## Get parcel data
 
 
@@ -348,7 +394,7 @@ ERROR XXX
 Request example:
 
 ```
-axios.post('/api/residential/zip', {keyword: "granite"});
+axios.post('/api/residential/search', {keyword: "granite"});
 ```
 
 ### Success Response
