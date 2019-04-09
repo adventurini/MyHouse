@@ -11,7 +11,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Navbar from './Navbar';
 import Login from './Login';
 import Funnel from './Funnel';
-import SignupForm from './SignupForm';
+import { SignupForm } from './SignupForm';
 
 
 
