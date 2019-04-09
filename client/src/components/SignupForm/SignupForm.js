@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import Axios from "axios"
+import Question from "./Question"
 
 const { SERVER_BASE_URL } = process.env
 
