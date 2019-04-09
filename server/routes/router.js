@@ -5,6 +5,7 @@ const questionsRouter = require( "./questions/questioins-router" );
 const answersRouter = require( "./answers/answers-router" );
 const parcelRouter = require( "./parcelverse/parcelverse-router" );
 const residentialRouter = require( "./residental/residential-router" );
+const housesRouter = require( "./house/houses-router" );
 
 const apiDocsPath = path.join( __dirname, "../apidoc" );
 
@@ -13,6 +14,7 @@ module.exports = server => {
     server.use( "/api/answers", answersRouter );
     server.use( "/api/parcel", parcelRouter );
     server.use( "/api/residential", residentialRouter );
+    server.use( "/api/houses", housesRouter );
     server.use( "/", express.static( apiDocsPath ) );
 };
 
