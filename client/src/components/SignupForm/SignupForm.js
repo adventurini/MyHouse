@@ -7,8 +7,7 @@ const { SERVER_BASE_URL } = process.env
 export default class SignUpForm extends Component {
   state = {
     questions: [],
-    step: 1,
-    address: ""
+    step: 1
   }
 
   componentDidMount() {
