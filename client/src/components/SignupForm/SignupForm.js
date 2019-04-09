@@ -31,6 +31,10 @@ export default class SignUpForm extends Component {
   handleSetStep = ix => _e => this.setState({ step: ix })
   handleAddrChange = ({ target: { value } }) =>
     this.setState({ address: value })
+  handleFormEnd = () => {
+    // @TODO: Axios.post call here
+    this.props.history.push("/login")
+  }
 
   render() {
     const { questions, step, address } = this.state
@@ -44,7 +48,7 @@ export default class SignUpForm extends Component {
             show={step === ix + 1}
             handleNextStep={
               ix + 1 === questions.length
-                ? this.props.history.push("/login")
+                ? this.handleFormEnd()
                 : this.handleSetStep(ix + 2)
             }
             handleChange={this.handleSetQuestions(ix)}
