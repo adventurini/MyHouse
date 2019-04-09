@@ -1,9 +1,10 @@
-exports.seed = function( knex, Promise ) {
+const csvParser = require( "../csvParser" );
+const path = require( "path" );
+
+exports.seed = async function( knex, Promise ) {
     // Inserts seed entries
-    return knex( "questions" ).insert( [
-        { question: "What type of counter tops do you have installed?" },
-        { question: "How old is your roof?" },
-        { question: "How old is your furnace?" },
-        { question: "How old is your AC?" },
-    ] );
+    const resultaArray = await csvParser(
+        path.join( __dirname, "./questions.csv" ) );
+    
+    return knex( "questions" ).insert( resultaArray );
 };
