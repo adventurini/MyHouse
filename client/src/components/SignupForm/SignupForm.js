@@ -27,31 +27,26 @@ function SignUpForm({ targetProperty, questions: _qs, getQuestions, history }) {
             : q
       )
     )
-    setStep(step + 1)
+
+    step === questions.length ? handleFormEnd() : setStep(step + 1)
   }
-  const handleSetStep = ix => _e => setStep(ix)
   const handleFormEnd = () => {
     history.push("/login")
   }
 
   return (
     <form>
-      {JSON.stringify(questions)}
       {questions.map((q, ix) => (
         <Question
           address={targetProperty.address}
           key={ix}
           questionIx={ix}
           show={step === ix + 1}
-          handleNextStep={
-            ix + 1 === questions.length
-              ? handleFormEnd()
-              : handleSetStep(ix + 2)
-          }
           handleChange={handleSetQuestions(ix)}
           {...q}
         />
       ))}
+      {JSON.stringify({ step, q: questions.length })}
     </form>
   )
 }

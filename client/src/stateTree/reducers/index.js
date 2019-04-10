@@ -1,6 +1,5 @@
 import { combineReducers } from "redux"
 import { GET_SUCCESS, GET_FAIL, SET_PROPERTY_ADDRESS } from "../actions"
-
 const questions = (state = [], action) => {
   switch (action.type) {
     case GET_SUCCESS:
