@@ -207,6 +207,388 @@ define({ "api": [
     }
   },
   {
+    "type": "post",
+    "url": "/api/houses",
+    "title": "Create houses",
+    "version": "1.0.0",
+    "name": "CreateHouses",
+    "group": "Houses",
+    "examples": [
+      {
+        "title": "Request example:",
+        "content": "axios.post('/api/houses', {\n     address: \"Some address\",\n     year_made: 1999,\n     year_remodel: 2000,\n     sq_ft: 3000,\n     sq_ft_est_lower_floor: 2000,\n     sq_ft_est_abv_grn: 1500,\n});",
+        "type": "json"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "address",
+            "description": "<p>The address of the house.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "year_made",
+            "description": "<p>Year the house was made.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": true,
+            "field": "year_remodel",
+            "description": "<p>Year the house was remodeled.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "sq_ft",
+            "description": "<p>Sq footage of the house.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": true,
+            "field": "sq_ft_est_lower_level",
+            "description": "<p>Sq footage of the lower level.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": true,
+            "field": "sq_ft_est_abv_grd",
+            "description": "<p>Sq footage above ground.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": true,
+            "field": "sq_ft_est_basement",
+            "description": "<p>Sq footage of the basement.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "lot_size",
+            "description": "<p>Sq footage of the lot.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "street_number",
+            "description": "<p>Street Number.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "street_name",
+            "description": "<p>Name of the street.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "street_suffix",
+            "description": "<p>Street suffix.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "city",
+            "description": "<p>City.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "county",
+            "description": "<p>County.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "zip",
+            "description": "<p>5 digit zip code.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "beds",
+            "description": "<p>Number of bedrooms.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "baths",
+            "description": "<p>Number of bathrooms.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "architecture_level",
+            "description": ""
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "architecture_style",
+            "description": ""
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "basement_type",
+            "description": ""
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "exterior_features",
+            "description": ""
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "garage_features",
+            "description": ""
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "garage_size",
+            "description": ""
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "garage_dimensions",
+            "description": ""
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "heating",
+            "description": ""
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "pool",
+            "description": ""
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "public_remarks",
+            "description": ""
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "porch_type",
+            "description": ""
+          }
+        ]
+      }
+    },
+    "success": {
+      "examples": [
+        {
+          "title": "House Data",
+          "content": "{\n\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "routes/house/houses-router.js",
+    "groupTitle": "Houses",
+    "sampleRequest": [
+      {
+        "url": "http://localhost:3333/api/houses"
+      }
+    ],
+    "error": {
+      "fields": {
+        "Error XXX": [
+          {
+            "group": "Error XXX",
+            "type": "Number",
+            "optional": false,
+            "field": "status",
+            "description": "<p>The status code response.</p>"
+          },
+          {
+            "group": "Error XXX",
+            "type": "String",
+            "optional": false,
+            "field": "message",
+            "description": "<p>Error message</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error Example:",
+          "content": "ERROR XXX\n{\n    \"status\": xxx,\n    \"message\": \"Some Error Message\"\n}",
+          "type": "json"
+        }
+      ]
+    }
+  },
+  {
+    "type": "get",
+    "url": "/api/houses",
+    "title": "Get houses",
+    "version": "1.0.0",
+    "name": "GetHouses",
+    "group": "Houses",
+    "examples": [
+      {
+        "title": "Request example:",
+        "content": "axios.get('/api/houses');",
+        "type": "json"
+      }
+    ],
+    "success": {
+      "examples": [
+        {
+          "title": "Parcel Data",
+          "content": "{\n\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "routes/house/houses-router.js",
+    "groupTitle": "Houses",
+    "sampleRequest": [
+      {
+        "url": "http://localhost:3333/api/houses"
+      }
+    ],
+    "error": {
+      "fields": {
+        "Error XXX": [
+          {
+            "group": "Error XXX",
+            "type": "Number",
+            "optional": false,
+            "field": "status",
+            "description": "<p>The status code response.</p>"
+          },
+          {
+            "group": "Error XXX",
+            "type": "String",
+            "optional": false,
+            "field": "message",
+            "description": "<p>Error message</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error Example:",
+          "content": "ERROR XXX\n{\n    \"status\": xxx,\n    \"message\": \"Some Error Message\"\n}",
+          "type": "json"
+        }
+      ]
+    }
+  },
+  {
+    "type": "post",
+    "url": "/api/residential/search/avg",
+    "title": "Avg price/sqr ft for keyword.",
+    "version": "1.0.0",
+    "name": "AvgPriceSqrFtKeyword",
+    "group": "Parcel",
+    "examples": [
+      {
+        "title": "Request example:",
+        "content": "axios.post('/api/residential/search/avg', {keyword: \"granite\"});",
+        "type": "json"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "keyword",
+            "description": "<p>Keyword to look for in public remarks.</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "examples": [
+        {
+          "title": "Residential Data",
+          "content": "[\n {\n        \"avg(`price_sqr_ft`)\": 210.10526315789474,\n        \"avg(`sale_price`)\": 315024.29411764705,\n        \"avg(`sqft_est_tot_fin`)\": 1946.6470588235295\n    }\n ]",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "routes/residental/residential-router.js",
+    "groupTitle": "Parcel",
+    "sampleRequest": [
+      {
+        "url": "http://localhost:3333/api/residential/search/avg"
+      }
+    ],
+    "error": {
+      "fields": {
+        "Error XXX": [
+          {
+            "group": "Error XXX",
+            "type": "Number",
+            "optional": false,
+            "field": "status",
+            "description": "<p>The status code response.</p>"
+          },
+          {
+            "group": "Error XXX",
+            "type": "String",
+            "optional": false,
+            "field": "message",
+            "description": "<p>Error message</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error Example:",
+          "content": "ERROR XXX\n{\n    \"status\": xxx,\n    \"message\": \"Some Error Message\"\n}",
+          "type": "json"
+        }
+      ]
+    }
+  },
+  {
     "type": "get",
     "url": "/api/parcel",
     "title": "Get parcel data",
@@ -403,7 +785,7 @@ define({ "api": [
     "examples": [
       {
         "title": "Request example:",
-        "content": "axios.post('/api/residential/zip', {keyword: \"granite\"});",
+        "content": "axios.post('/api/residential/search', {keyword: \"granite\"});",
         "type": "json"
       }
     ],

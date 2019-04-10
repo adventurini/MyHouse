@@ -157,7 +157,7 @@ residentialRouter.get( "/zip", ( req, res ) => {
  * @apiGroup Parcel
  *
  * @apiExample Request example:
- * axios.post('/api/residential/zip', {keyword: "granite"});
+ * axios.post('/api/residential/search', {keyword: "granite"});
  *
  * @apiParam {String} keyword   Keyword to look for in public remarks.
  *
@@ -216,7 +216,7 @@ residentialRouter.post( "/search", ( req, res ) => {
     const search = req.body;
     if ( !search || !search.keyword ) {
         res.status( 400 ).json( {
-            message: "Please include a zip code and keyword in your request."
+            message: "Please include a keyword in your request."
         } );
     }
     
@@ -229,4 +229,44 @@ residentialRouter.post( "/search", ( req, res ) => {
     
 } );
 
+/**
+ * @api {post} /api/residential/search/avg Avg price/sqr ft for keyword.
+ * @apiVersion 1.0.0
+ * @apiName AvgPriceSqrFtKeyword
+ * @apiGroup Parcel
+ *
+ * @apiExample Request example:
+ * axios.post('/api/residential/search/avg', {keyword: "granite"});
+ *
+ * @apiParam {String} keyword   Keyword to look for in public remarks.
+ *
+ * @apiUse Error
+ *
+ * @apiSuccessExample Residential Data
+ *[
+ {
+        "avg(`price_sqr_ft`)": 210.10526315789474,
+        "avg(`sale_price`)": 315024.29411764705,
+        "avg(`sqft_est_tot_fin`)": 1946.6470588235295
+    }
+ ]
+ *
+ */
+residentialRouter.post( "/search/avg", ( req, res ) => {
+    
+    const search = req.body;
+    if ( !search || !search.keyword ) {
+        res.status( 400 ).json( {
+            message: "Please include a keyword in your request."
+        } );
+    }
+    
+    residential.averageForKeyword( search ).then( results => {
+        res.status( 200 ).json( results );
+    } ).catch( err => {
+        console.log( err );
+        res.status( 500 ).json( { status: 500, message: err.message } );
+    } );
+    
+} );
 module.exports = residentialRouter;

@@ -6,7 +6,12 @@ Api for MyHouse project storing and getting information from the sqlite database
 	- [Create a answer.](#create-a-answer.)
 	- [Get answers](#get-answers)
 	
+- [Houses](#houses)
+	- [Create houses](#create-houses)
+	- [Get houses](#get-houses)
+	
 - [Parcel](#parcel)
+	- [Avg price/sqr ft for keyword.](#avg-price/sqr-ft-for-keyword.)
 	- [Get parcel data](#get-parcel-data)
 	- [Get residential data](#get-residential-data)
 	- [Get residential data by zip code](#get-residential-data-by-zip-code)
@@ -111,8 +116,164 @@ ERROR XXX
     "message": "Some Error Message"
 }
 ```
+# Houses
+
+## Create houses
+
+
+
+	POST /api/houses
+
+
+### Parameters
+
+| Name    | Type      | Description                          |
+|---------|-----------|--------------------------------------|
+| address			| String			|  <p>The address of the house.</p>							|
+| year_made			| Number			|  <p>Year the house was made.</p>							|
+| year_remodel			| Number			| **optional** <p>Year the house was remodeled.</p>							|
+| sq_ft			| Number			|  <p>Sq footage of the house.</p>							|
+| sq_ft_est_lower_level			| Number			| **optional** <p>Sq footage of the lower level.</p>							|
+| sq_ft_est_abv_grd			| Number			| **optional** <p>Sq footage above ground.</p>							|
+| sq_ft_est_basement			| Number			| **optional** <p>Sq footage of the basement.</p>							|
+| lot_size			| Number			|  <p>Sq footage of the lot.</p>							|
+| street_number			| Number			|  <p>Street Number.</p>							|
+| street_name			| String			|  <p>Name of the street.</p>							|
+| street_suffix			| String			|  <p>Street suffix.</p>							|
+| city			| String			|  <p>City.</p>							|
+| county			| String			|  <p>County.</p>							|
+| zip			| Number			|  <p>5 digit zip code.</p>							|
+| beds			| Number			|  <p>Number of bedrooms.</p>							|
+| baths			| Number			|  <p>Number of bathrooms.</p>							|
+| architecture_level			| String			| **optional** 							|
+| architecture_style			| String			| **optional** 							|
+| basement_type			| String			| **optional** 							|
+| exterior_features			| String			| **optional** 							|
+| garage_features			| String			| **optional** 							|
+| garage_size			| String			| **optional** 							|
+| garage_dimensions			| String			| **optional** 							|
+| heating			| String			| **optional** 							|
+| pool			| String			| **optional** 							|
+| public_remarks			| String			| **optional** 							|
+| porch_type			| String			| **optional** 							|
+
+### Examples
+
+Request example:
+
+```
+axios.post('/api/houses', {
+     address: "Some address",
+     year_made: 1999,
+     year_remodel: 2000,
+     sq_ft: 3000,
+     sq_ft_est_lower_floor: 2000,
+     sq_ft_est_abv_grn: 1500,
+});
+```
+
+### Success Response
+
+House Data
+
+```
+{
+
+}
+```
+### Error Response
+
+Error Example:
+
+```
+ERROR XXX
+{
+    "status": xxx,
+    "message": "Some Error Message"
+}
+```
+## Get houses
+
+
+
+	GET /api/houses
+
+
+### Examples
+
+Request example:
+
+```
+axios.get('/api/houses');
+```
+
+### Success Response
+
+Parcel Data
+
+```
+{
+
+}
+```
+### Error Response
+
+Error Example:
+
+```
+ERROR XXX
+{
+    "status": xxx,
+    "message": "Some Error Message"
+}
+```
 # Parcel
 
+## Avg price/sqr ft for keyword.
+
+
+
+	POST /api/residential/search/avg
+
+
+### Parameters
+
+| Name    | Type      | Description                          |
+|---------|-----------|--------------------------------------|
+| keyword			| String			|  <p>Keyword to look for in public remarks.</p>							|
+
+### Examples
+
+Request example:
+
+```
+axios.post('/api/residential/search/avg', {keyword: "granite"});
+```
+
+### Success Response
+
+Residential Data
+
+```
+[
+ {
+        "avg(`price_sqr_ft`)": 210.10526315789474,
+        "avg(`sale_price`)": 315024.29411764705,
+        "avg(`sqft_est_tot_fin`)": 1946.6470588235295
+    }
+ ]
+```
+### Error Response
+
+Error Example:
+
+```
+ERROR XXX
+{
+    "status": xxx,
+    "message": "Some Error Message"
+}
+```
 ## Get parcel data
 
 
@@ -348,7 +509,7 @@ ERROR XXX
 Request example:
 
 ```
-axios.post('/api/residential/zip', {keyword: "granite"});
+axios.post('/api/residential/search', {keyword: "granite"});
 ```
 
 ### Success Response
