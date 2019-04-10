@@ -13,7 +13,6 @@ export const getQuestions = () => dispatch => {
   })
   Axios.get(SERVER_BASE_URL + "/api/questions")
     .then(response => {
-      console.log({ response })
       dispatch({
         type: GET_SUCCESS,
         payload: response.data
