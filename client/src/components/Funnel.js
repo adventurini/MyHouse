@@ -3,7 +3,7 @@ import React, { Fragment, Component } from 'react';
 // import { GiFamilyHouse, GiHouse, GiMoneyStack } from 'react-icons/gi';
 import { connect } from 'react-redux';
 
-
+import video from '../assets/red-drops_360p.mp4'
 
 
 
@@ -15,6 +15,7 @@ class Funnel extends Component {
         width:`33.33%`,
         left:`33.33%`,
         zIndex:`10`,
+        videoURL: '../assets/blue-drops_360p.mp4',
     }
     
     slide = (direction) => {
@@ -52,6 +53,21 @@ class Funnel extends Component {
         
         return (
         <Fragment>
+            <div
+                className='background-video--page'>
+                <video 
+                    className='background-video' 
+                    poster='../assets/red-drops-poster.png'
+                    autoPlay muted playsInline loop
+                >
+                    <source src={video} type='video/mp4' />
+                    <source src={video} type='video/ogg' />
+
+                </video>
+
+            </div>
+            
+
             <div className='big-panel-1' onClick={() => this.slide('up-left')} style={{
                 height:this.state.heightLeft,
             }}>
@@ -73,24 +89,21 @@ class Funnel extends Component {
             </div>
 
             <section className='home-page'>
-{/* 
-
-                <h1>My House</h1>
-
-                <div className='tagline'>My House provides the most accurate home valuation available on the internet</div>
-
-                <button className='btn-primary' ><GiHouse /></button>
-                <button className='btn-primary' ><GiFamilyHouse /></button>
-                <button className='btn-primary' ><GiMoneyStack /></button>
-
-                <form>
-                    <input placeholder='Enter Address...' />
-                </form> */}
-
+            
                 <div className='page-fade'></div>
 
             </section>
 
+
+
+
+
+                
+                
+            
+            
+            
+            
 
 
         </Fragment>

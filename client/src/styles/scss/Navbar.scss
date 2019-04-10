@@ -12,5 +12,13 @@
     top: 0;
     .nav-logo {
         @include font-logo;
+        
+    }
+    .nav-buttons {
+
+        svg {
+            margin: 0 5px 0 15px;
+        }
+        
     }
 }

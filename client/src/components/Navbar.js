@@ -1,7 +1,9 @@
 import React, { Fragment, Component } from 'react';
 
-import { GiBeerStein } from 'react-icons/gi';
+// import { GiBeerStein } from 'react-icons/gi';
 import { connect } from 'react-redux';
+
+import { GiFamilyHouse, GiHouse, GiMoneyStack } from 'react-icons/gi';
 
 
 
@@ -14,9 +16,9 @@ class Navbar extends Component {
             <section className='navbar'>
                 <div className='nav-logo'>My House</div>
                 <div className='nav-buttons'>
-                    <GiBeerStein />
-                    <GiBeerStein />
-                    <GiBeerStein />
+                    <GiHouse />
+                    <GiFamilyHouse />
+                    <GiMoneyStack />
                 </div>
             </section>
         </Fragment>
