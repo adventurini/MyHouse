@@ -1,15 +1,10 @@
 import { combineReducers } from "redux"
-import {
-  GET_START,
-  GET_SUCCESS,
-  GET_FAIL,
-  SET_PROPERTY_ADDRESS
-} from "../actions"
+import { GET_SUCCESS, GET_FAIL, SET_PROPERTY_ADDRESS } from "../actions"
 
 const questions = (state = [], action) => {
   switch (action.type) {
     case GET_SUCCESS:
-      return [...state, action.payload]
+      return [...state, ...action.payload]
     default:
       return state
   }
