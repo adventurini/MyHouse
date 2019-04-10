@@ -16,7 +16,7 @@ export const getQuestions = () => dispatch => {
       console.log({ response })
       dispatch({
         type: GET_SUCCESS,
-        payload: response
+        payload: response.data
       })
     })
     .catch(error => {
