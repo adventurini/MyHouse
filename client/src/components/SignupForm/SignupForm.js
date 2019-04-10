@@ -1,24 +1,10 @@
 import React, { Component } from "react"
-import Axios from "axios"
 import Question from "./Question"
-
-const { SERVER_BASE_URL } = process.env
 
 export default class SignUpForm extends Component {
   state = {
     questions: [],
     step: 1
-  }
-
-  componentDidMount() {
-    Axios.get(SERVER_BASE_URL + "/api/questions")
-      .then(questions_ =>
-        this.setState({
-          questions: questions_.map(q => ({ ...q, selected: null }))
-        })
-      )
-      // @TODO: Handle fetch error
-      .catch(console.error)
   }
 
   handleSetQuestions = questionIx => optionIx => _e =>
