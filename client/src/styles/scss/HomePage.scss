@@ -1,16 +1,35 @@
 .home-page {
     background-image: url('../../assets/matt-donders-446826-unsplash.jpg');
-    height: 100vh;
+    height: calc(100vh - 40px);
     background-size: cover;
     background-repeat: no-repeat;
+    overflow-y: hidden; 
     z-index: 0;
     h1 {
-        padding-top: 20%;
+        // background: -webkit-linear-gradient($clear-color, $black);
+        // -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
+        color: $dark;
+        padding-top: 10%;
+        font-size: calc(10px + 9vmin);
+        line-height: 1.5;
+        position: relative;
+    }
+    .tagline {
+        @include font-body;
+        color: $dark;
+        font-size: 3rem;
+        max-width: 600px;
+        margin: 0 auto 10% auto;
+        position: relative;
+        z-index: 5;
     }
     button {
         border-radius: 0;
         width: 100px;
         margin: 20px 10px 10px;
+        position: relative;
+        z-index: 5;
     }
     form {
         margin-top: 0;
@@ -20,21 +39,66 @@
             width: 100%;
         }
     }
-    .home-tagline {
-        margin-top: 10px;
+    .page-fade {
         background-size: 4px 4px;
-        background-image: radial-gradient(circle, rgba(11,11,11,0.5) 1px, rgba(0,0,0,0) 1px);
+        // background-image: radial-gradient(circle, rgba(11,11,11,0.5) 1px, rgba(0,0,0,0) 1px);
+        background: linear-gradient(to bottom, rgba(255,255,255,0),rgba(255,255,255,0), rgba(0,0,0,0.75));
         height: 100%;
-        z-index: 10;
-        .tagline {
-            @include font-body;
-            font-size: 3rem;
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 10px 10px 15px;
-            top: 10%;
-            position: relative;
-            background-color: $light;
-        }
+        position: sticky;
+        bottom: 0;
+        z-index: 0;
+        
     }
 }
+
+.big-panel-1, .big-panel-2, .big-panel-3 {
+    z-index: 10;
+    @include transition(0.5s);
+    .big-panel-text {
+        font-size: 3.75rem;
+        top: 50%;
+        color: $white;
+        position: relative;
+        // transform: rotate(-15deg);
+        line-height: 0.7;
+        @include font-logo;
+    }
+}
+
+.big-panel-1 {
+    width: 33.33%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(24, 255, 255, 0.5);
+
+    @include transition(0.5s);
+}
+
+
+.big-panel-2 {
+    width: 33.33%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 33.33%;
+    overflow-y: hidden;
+    background-color: rgb(36, 36, 36);
+    .big-panel-text {
+        line-height: 0;
+    }
+
+}
+
+.big-panel-3 {
+    width: 33.33%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(113, 24, 255, 0.5);
+
+}
+
+
