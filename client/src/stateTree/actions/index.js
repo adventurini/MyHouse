@@ -5,7 +5,7 @@ export const GET_SUCCESS = "GET_SUCCESS"
 export const GET_FAIL = "GET_FAIL"
 export const SET_PROPERTY_ADDRESS = "SET_PROPERTY_ADDRESS"
 
-const { SERVER_BASE_URL } = process.env
+const SERVER_BASE_URL = process.env.REACT_APP_SERVER_BASE_URL
 
 export const getQuestions = () => dispatch => {
   dispatch({
@@ -16,7 +16,7 @@ export const getQuestions = () => dispatch => {
       console.log({ response })
       dispatch({
         type: GET_SUCCESS,
-        payload: response.data
+        payload: response
       })
     })
     .catch(error => {
