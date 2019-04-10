@@ -46,7 +46,6 @@ function SignUpForm({ targetProperty, questions: _qs, getQuestions, history }) {
           {...q}
         />
       ))}
-      {JSON.stringify({ step, q: questions.length })}
     </form>
   )
 }
