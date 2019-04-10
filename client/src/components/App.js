@@ -28,8 +28,8 @@ class App extends Component {
             <Route
               exact
               path='/'
-              render={() => (
-                <Funnel />
+              render={props => (
+                <Funnel {...props} />
               )}
             />
 
