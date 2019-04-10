@@ -5,11 +5,15 @@ import { getQuestions } from "../../stateTree/actions"
 
 function SignUpForm({ targetProperty, questions: _qs, getQuestions, history }) {
   const [step, setStep] = useState(1)
-  const [questions, setQuestions] = useState(
-    _qs.map(q => ({ ...q, selected: null }))
-  )
+  const [questions, setQuestions] = useState([])
 
   useEffect(getQuestions, [])
+  useEffect(
+    () => {
+      setQuestions(_qs.map(q => ({ ...q, selected: null })))
+    },
+    [_qs]
+  )
 
   const handleSetQuestions = questionIx => optionIx => _e => {
     setQuestions(
@@ -27,12 +31,12 @@ function SignUpForm({ targetProperty, questions: _qs, getQuestions, history }) {
   }
   const handleSetStep = ix => _e => setStep(ix)
   const handleFormEnd = () => {
-    // @TODO: Axios.post call here
     history.push("/login")
   }
 
   return (
     <form>
+      {JSON.stringify(questions)}
       {questions.map((q, ix) => (
         <Question
           address={targetProperty.address}
@@ -53,7 +57,7 @@ function SignUpForm({ targetProperty, questions: _qs, getQuestions, history }) {
 }
 
 export default connect(
-  ({ questions }) => ({ questions }),
+  ({ questions, targetProperty }) => ({ questions, targetProperty }),
   {
     getQuestions
   }
