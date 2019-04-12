@@ -5,8 +5,8 @@ export default function Question({
   show,
   questionIx,
   handleChange,
-  content,
-  options,
+  question: content,
+  answers: options,
   selected
 }) {
   return (
@@ -15,7 +15,7 @@ export default function Question({
         <h4>{address}</h4>
         <h2>For a more precise estimate, please answer the following:</h2>
         <h3>{content}</h3>
-        {options.map((option, optionIx) => (
+        {options.map(({ answer: option }, optionIx) => (
           <Fragment key={optionIx}>
             <input
               type="radio"

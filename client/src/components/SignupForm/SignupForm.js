@@ -1,61 +1,58 @@
-import React, { Component } from "react"
-import Axios from "axios"
+import React, { useState, useEffect } from "react"
 import Question from "./Question"
+import { connect } from "react-redux"
+import { getQuestions } from "../../stateTree/actions"
 
-const { SERVER_BASE_URL } = process.env
+function SignUpForm({ targetProperty, questions: _qs, getQuestions, history }) {
+  const [step, setStep] = useState(1)
+  const [questions, setQuestions] = useState([])
 
-export default class SignUpForm extends Component {
-  state = {
-    questions: [],
-    step: 1
-  }
+  useEffect(getQuestions, [])
+  useEffect(
+    () => {
+      setQuestions(_qs.map(q => ({ ...q, selected: null })))
+    },
+    [_qs]
+  )
 
-  componentDidMount() {
-    Axios.get(SERVER_BASE_URL + "/api/questions")
-      .then(questions_ =>
-        this.setState({
-          questions: questions_.map(q => ({ ...q, selected: null }))
-        })
+  const handleSetQuestions = questionIx => optionIx => _e => {
+    setQuestions(
+      questions.map(
+        (q, ix) =>
+          ix === questionIx
+            ? {
+                ...q,
+                selected: optionIx
+              }
+            : q
       )
-      // @TODO: Handle fetch error
-      .catch(console.error)
-  }
-
-  handleSetQuestions = questionIx => optionIx => _e =>
-    this.setState(({ questions, step }) => ({
-      questions: questions.map(
-        (q, ix) => (ix === questionIx ? { ...q, selected: optionIx } : q)
-      ),
-      step: step + 1
-    }))
-  handleSetStep = ix => _e => this.setState({ step: ix })
-  handleAddrChange = ({ target: { value } }) =>
-    this.setState({ address: value })
-  handleFormEnd = () => {
-    // @TODO: Axios.post call here
-    this.props.history.push("/login")
-  }
-
-  render() {
-    const { questions, step, address } = this.state
-    return (
-      <form>
-        {questions.map((q, ix) => (
-          <Question
-            address={address}
-            key={ix}
-            questionIx={ix}
-            show={step === ix + 1}
-            handleNextStep={
-              ix + 1 === questions.length
-                ? this.handleFormEnd()
-                : this.handleSetStep(ix + 2)
-            }
-            handleChange={this.handleSetQuestions(ix)}
-            {...q}
-          />
-        ))}
-      </form>
     )
+
+    step === questions.length ? handleFormEnd() : setStep(step + 1)
   }
+  const handleFormEnd = () => {
+    history.push("/login")
+  }
+
+  return (
+    <form>
+      {questions.map((q, ix) => (
+        <Question
+          address={targetProperty.address}
+          key={ix}
+          questionIx={ix}
+          show={step === ix + 1}
+          handleChange={handleSetQuestions(ix)}
+          {...q}
+        />
+      ))}
+    </form>
+  )
 }
+
+export default connect(
+  ({ questions, targetProperty }) => ({ questions, targetProperty }),
+  {
+    getQuestions
+  }
+)(SignUpForm)

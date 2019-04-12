@@ -1,13 +1,27 @@
 import React, { Fragment, Component } from 'react';
-
-// import { GiFamilyHouse, GiHouse, GiMoneyStack } from 'react-icons/gi';
 import { connect } from 'react-redux';
+import { setPropertyAddress } from '../stateTree/actions'
 
 import video from '../assets/red-drops_360p.mp4'
 
 
 
 class Funnel extends Component {
+    state = {
+        address: ""
+    };
+
+    handleChange = e => {
+        this.setState({
+            address: e.target.value
+        });
+    };
+
+    handleSubmit = e => {
+        e.preventDefault();
+        this.props.setPropertyAddress(this.state.address);
+        this.props.history.push('/signup')
+    };
     state={
         heightLeft:`100%`,
         height:`100%`,
@@ -94,18 +108,6 @@ class Funnel extends Component {
 
             </section>
 
-
-
-
-
-                
-                
-            
-            
-            
-            
-
-
         </Fragment>
         );
     }
@@ -113,12 +115,8 @@ class Funnel extends Component {
 
 
 
-const mapStateToProps = state => ({
-  ...state  // This brings in all of state store. you can be explicit as well.
-})
-
 export default connect(
-    mapStateToProps, 
-    {  }    // Bring in action here. Remember to import it
+    ({ targetProperty }) => ({ targetProperty }), 
+    { setPropertyAddress }
 )(Funnel);
 

@@ -11,7 +11,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Navbar from './Navbar';
 import Login from './Login';
 import Funnel from './Funnel';
-import { SignupForm } from './SignupForm';
+import SignupForm from './SignupForm';
 
 
 
@@ -28,13 +28,12 @@ class App extends Component {
             <Route
               exact
               path='/'
-              render={() => (
-                <Funnel />
+              render={props => (
+                <Funnel {...props} />
               )}
             />
 
             <Route
-              exact
               path='/signup'
               render={props => (
                 <SignupForm {...props} />
